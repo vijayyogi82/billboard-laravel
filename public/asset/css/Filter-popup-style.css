@@ -1,0 +1,338 @@
+/* CSS CODE BY TANISHA */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* body{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+} */
+#integrate-filter-popup .location-radius ul{
+    padding-left: 0px !important;
+    margin-bottom: 1rem;
+}
+#integrate-filter-popup .location-radius ul li{
+    list-style-type: none;
+}
+#integrate-filter-popup{
+    border-radius: 25px;
+    padding: 0px 20px 10px 20px;
+}
+#integrate-filter-popup .modal-body{
+    padding: 1rem;
+}
+/* .view{
+    padding: 0px;
+} */
+#integrate-filter-popup .modal-header{
+    border-bottom: none !important;
+}
+#integrate-filter-popup .modal-title{
+    color: #333333;
+    font-size: 21px !important;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-top: 20px !important;
+}
+#integrate-filter-popup .modal-header .btn-close{
+    margin: 0px;
+    border: 3px solid #0A1E5C !important;
+    border-radius: 50px !important;
+    margin-top: 6px;
+    opacity: 1;
+}
+#integrate-filter-popup .btn-close{
+    color: #0A1E5C !important;
+    border: 3px solid #0A1E5C !important;
+}
+#integrate-filter-popup .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-filter-popup .modal-sub-title{
+    color: #0A1E5C;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+#integrate-filter-popup .location-radius{
+    width: 100%;
+    height: 131px;
+    border-bottom: 1px solid #0A1E5C;
+}
+#integrate-filter-popup .p-2{
+    padding-left: 0px !important;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+#integrate-filter-popup .bd-highlight{
+    background-color: #fff;
+    border: none;
+}
+#integrate-filter-popup .small{
+    font-size: 10px;
+}
+#integrate-filter-popup .range-input{
+    height: 20px;
+    width: 41px;
+    border: 1px solid #0A1E5C;
+    border-radius: 5px;
+    margin-left: 7px;
+    outline: none;
+    padding: 0 10px 0 11px;
+    color: #0A1E5C;
+}
+#integrate-filter-popup .range-input ::placeholder{
+    color: #0A1E5C;
+}
+#integrate-filter-popup .radius-in-kilometres{
+    width: 100%;
+    height: 20px;
+}
+#integrate-filter-popup .radius-in-kilometres .kilometres{
+    font-size: 12px;
+    color: #0A1E5C;
+    font-family: 'Poppins';
+    line-height: 17px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+#integrate-filter-popup .volume{
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 19px;
+    padding: 0px;
+}
+#integrate-filter-popup .radius-in-kilometres .pl-0{
+   padding-left: 0px; 
+}
+#integrate-filter-popup .radius-in-kilometres .pr-0{
+    padding-right: 0px; 
+ }
+ #integrate-filter-popup p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6B6B6B;
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top: -3px !important;
+}
+#integrate-filter-popup .title{
+    font-size: 22px;
+    margin-top: 24px;
+}
+#integrate-filter-popup .form-check-input:checked {
+    background-color: #0A1E5C;
+    border-color: #0A1E5C;
+    font-size: 21px;
+}
+#integrate-filter-popup .form-check{
+    padding-left: 33px !important;
+    margin-bottom: 5px;
+}
+#integrate-filter-popup .form-check-input[type=checkbox] {
+    font-size: 21px;
+    margin-top: auto;
+}
+#integrate-filter-popup .form-check-input:focus{
+    box-shadow: none !important;
+}
+#integrate-filter-popup .fa-star{
+    color: #FFE600;
+    padding-left: 6px;
+    font-size: 21px;
+}
+#integrate-filter-popup label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+#integrate-filter-popup .modal-footer{
+    border-top: none !important;
+    background: white;
+    border-radius: 25px;
+}
+#integrate-filter-popup .modal-footer .btn-primary{
+    width: 115px;
+    height: 34px;
+    background-color: #0A1E5C;
+    border: 1.3px solid #0A1E5C;
+    border-radius: 10px !important;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 1px;
+}
+#integrate-filter-popup .btn-check:focus+.btn, .btn:focus {
+    box-shadow: none !important;
+}
+#integrate-filter-popup .btn:active{
+    color: #fff;
+}
+#integrate-filter-popup .btn-light{
+    width: 80px;
+    height: 34px;
+    background-color: #fff !important;
+    border: 1.3px solid #0A1E5C !important;
+    border-radius: 10px !important;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 2px;
+    color: #0A1E5C !important;
+}
+
+
+@media screen and (max-width: 515px){}
+
+
+ /* Board_Details-view_on_maps-filter CSS CODE */
+
+ #integrate-view-on-maps-filter{
+    border-radius: 25px;
+    padding: 0px 20px 10px 20px;
+}
+#integrate-view-on-maps-filter .modal-body{
+    padding: 1rem;
+}
+#integrate-view-on-maps-filter .modal-header{
+    border-bottom: none !important;
+}
+#integrate-view-on-maps-filter .board{
+    font-family: Poppins;
+    font-size: 17px !important;
+    font-weight: 600;
+    line-height: 29px;
+    color: #0A1E5C;
+    margin-top: 0px !important;
+    margin: 0px;
+    margin-left: auto;
+}
+#integrate-view-on-maps-filter .modal-header .btn-circle-xmark{
+    font-size: 23px;
+    margin-left: auto;
+    margin-top: -23px;
+}
+#integrate-view-on-maps-filter .btn-circle-xmark{
+    color: #0A1E5C !important;
+    border: none;
+    background: none;
+    margin: -18px;
+}
+#integrate-view-on-maps-filter .btn-circle-xmark:focus{
+    box-shadow: none !important;
+}
+#integrate-view-on-maps-filter .form-select{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #0A1E5C;
+    border: none;
+    border-bottom: 1px solid #0A1E5C;
+    border-radius: 0px;
+    margin-top: -20px;
+    box-shadow: none;
+}
+#integrate-view-on-maps-filter .form-select:focus {
+    border-bottom: 1px solid #0A1E5C;
+    outline: 0;
+    box-shadow: none;
+}
+#integrate-view-on-maps-filter .top{
+    margin-top: 10px;
+}
+#integrate-view-on-maps-filter option{
+    box-shadow: 0px -2px 8px 0px #3C4F7617 inset;
+}
+/* #integrate-view-on-maps-filter select{
+    -webkit-appearance: none;
+    appearance: none;
+} */
+#integrate-view-on-maps-filter .modal-footer{
+    border-top: none !important;
+    background: white;
+    border-radius: 25px;
+}
+#integrate-view-on-maps-filter .modal-footer .btn-primary{
+    width: 115px;
+    height: 34px;
+    background-color: #0A1E5C;
+    border: 1.3px solid #0A1E5C;
+    border-radius: 10px !important;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 1px;
+}
+#integrate-view-on-maps-filter .btn-check:focus+.btn, .btn:focus {
+    box-shadow: none !important;
+}
+#integrate-view-on-maps-filter .btn:active{
+    color: #fff;
+}
+#integrate-view-on-maps-filter .btn-light{
+    width: 80px;
+    height: 34px;
+    background-color: #fff !important;
+    border: 1.3px solid #0A1E5C !important;
+    border-radius: 10px !important;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 2px;
+    color: #0A1E5C !important;
+}
+
+
+/* SCHEDULE-3 CSS CODE */
+
+#integrate-filter-popup #integrate-schedule-title {
+    color: #333333;
+    margin: 0;
+    margin-top: 10px !important;
+    font-size: 24px !important;
+}
+#integrate-filter-popup #integrate-schedule-footer{
+    border-top: 1px solid #929292 !important;
+    border-radius: 0px !important;
+    display: inline-block;
+}
+/* .margin{
+    margin-left: 53px;
+} */
+
+@media screen and (max-width: 456px){
+    #integrate-filter-popup .margin{margin-left: 4px;}
+}
+
+
+@media screen and (max-width: 415px){
+    #integrate-filter-popup #btn-close{height: 1em;width: 1em;}
+    #integrate-filter-popup .btn-close{height: 18px;width: 31px;}
+}
+
+@media screen and (max-width: 514px){
+    #integrate-filter-popup .volume{margin-top: 20px;}
+    #integrate-filter-popup .location-radius{height: 155px;}
+}
+
+@media screen and (max-width: 347px){
+    #integrate-filter-popup .volume{margin-top: 19px;}
+    #integrate-filter-popup .kilometres{padding-left: 0px;padding-right: 14px;}
+    #integrate-filter-popup .location-radius{height: 170px;}
+}

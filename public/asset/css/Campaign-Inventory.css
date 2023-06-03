@@ -1,0 +1,157 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+#integrate-added-to-proposals{
+    border-radius: 25px !important;
+    padding: 0 20px 10px 20px;
+    top: 100px;
+}
+#integrate-added-to-proposals .modal-header{
+    border-bottom: none !important;
+    margin-top: 20px !important;
+}
+#integrate-added-to-proposals .modal-title{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #333333;
+    margin: auto;
+}
+#integrate-added-to-proposals .modal-header .btn-close{
+    margin: 0px;
+}
+#integrate-added-to-proposals .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-added-to-proposals .modal-body{
+    padding: 1rem;
+}
+/* #integrate-terms-form-check .form-check-input{
+    width: 31px;
+    height: 31px;
+    border: 3.4px solid #0A1E5C;
+    border-radius: 8px !important;
+}
+#integrate-terms-form-check .form-check-input:focus {
+    border: 3.4px solid #0A1E5C;
+    outline: 0;
+    box-shadow: none;
+}
+#integrate-terms-form-check .form-check-input:checked[type=checkbox] {
+    background-color: #ffffff;
+    background-image: url(../Images/check.png);
+    border: 3.4px solid #0A1E5C;
+}
+#integrate-terms-form-check label{
+    display: block;
+    margin-left: 25px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-align: justify;
+}
+#integrate-added-to-proposals .btn:hover {
+    color: #ffffff;
+    background-color: #0A1E5C;
+    border: 3.4px solid #0A1E5C;
+}
+#integrate-added-to-proposals .btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active {
+    color: #ffffff;
+    background-color: #0A1E5C;
+    border: 3.4px solid #0A1E5C;
+}
+#integrate-added-to-proposals .btn-check:focus+.btn, .btn:focus {
+    color: #ffffff;
+    background-color: #0A1E5C;
+    border: 3.4px solid #0A1E5C;
+    box-shadow: none;
+}
+#integrate-added-to-proposals .btn-check:active+.btn:focus, .btn-check:checked+.btn:focus, .btn.active:focus, .btn.show:focus, .btn:active:focus {
+    box-shadow: none;
+} */
+#integrate-added-to-proposals .modal-footer{
+    border-top: none;
+    display: inline-block;
+}
+#integrate-added-to-proposals .yes-no-button{ display: flex; align-items: center; justify-content: center; padding-bottom: 20px;}
+#integrate-added-to-proposals .yes-no-button button{ padding: 3px 40px; border-radius: 5px; background-color: #0A1E5C; color: white; border: 0; font-size: 18px; font-weight: 600;
+    margin-right: 20px;}
+/* #integrate-added-to-proposals .btn-primary{
+    width: 100%;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #0A1E5C;
+    border: 1px solid #0A1E5C;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+}
+#integrate-added-to-proposals .generate{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-align: justify;
+    margin-bottom: 1rem;
+} */
+/* #integrate-added-to-proposals .modal-header img{margin-right: 10px;} */
+
+
+/* HOMEPAGE-CONFIRMATION-CSS */
+#integrate-page-confirmation{
+    border-radius: 25px !important;
+    padding: 0 20px 10px 20px;
+    top: 100px;
+}
+#integrate-page-confirmation .modal-header{
+    border-bottom: none !important;
+    margin-top: 20px !important;
+}
+#integrate-page-confirmation .modal-title{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #333333;
+    margin: auto;
+}
+#integrate-page-confirmation .modal-header .btn-close{
+    margin: 0px;
+    border: 3px solid #0A1E5C !important;
+    border-radius: 50px !important;
+    opacity: 1;
+}
+#integrate-page-confirmation .btn-close{
+    color: #0A1E5C !important;
+    border: 3px solid #0A1E5C !important;
+}
+#integrate-page-confirmation .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-page-confirmation .modal-body{
+    padding: 1rem;
+}
+#integrate-page-confirmation .generate{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+#integrate-page-confirmation .yes-no-button{ display: flex; align-items: center; justify-content: center; padding-bottom: 20px;}
+#integrate-page-confirmation .yes-no-button button{ padding: 3px 40px; border-radius: 5px; background-color: #0A1E5C; color: white; border: 0; font-size: 18px; font-weight: 600;
+    margin-right: 20px;}
+
+/* @media screen and (max-width: 415px){
+    .btn-close{height: 18px;width: 23px;}
+} */
+
+#integrate-page-confirmation .modal-header img{margin-right: 10px;}

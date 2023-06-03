@@ -1,0 +1,173 @@
+/* CSS CODE BY TANISHA */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    padding: 0px;
+    margin-left: 15px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+.modal-content{
+    border-radius: 25px !important;
+    padding: 0 20px 10px 20px;
+}
+.modal-header{
+    border-bottom: none !important;
+    margin-top: 20px !important;
+}
+.tag{
+    margin-right: 5px;
+}
+.modal-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #0A1E5C;
+}
+.modal-header .btn-close{
+    margin: 0px;
+    border: 3px solid #0A1E5C !important;
+    border-radius: 50px !important;
+    opacity: 1;
+}
+.btn-close{
+    color: #0A1E5C !important;
+    border: 3px solid #0A1E5C !important;
+}
+.btn-close:focus{
+    box-shadow: none !important;
+}
+.form-control{
+    width: 330px;
+    border: 2px solid #0A1E5C;
+    border-radius: 6px;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: 2px solid #0A1E5C;
+    box-shadow: none;
+}
+.modal-body .btn-primary{
+    width: 90px;
+    height: 40px;
+    margin-left: 3px !important;
+    border-radius: 11px;
+    border-top-left-radius: 11px !important;
+    border-bottom-left-radius: 11px !important;
+    background-color: #0A1E5C;
+    border: 1px solid #0A1E5C;
+}
+.fa-plus{
+    font-size: 26px;
+}
+::placeholder{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 33px;
+}
+.brand-added-list{
+    height: 165px;
+    margin-top: 27px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 74px 0 57px 0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    color: #B5B5B5;
+}
+.no-padding{
+    padding: 22px 0;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #0A1E5C;
+}
+.btn-danger{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 203px;
+    padding: 0px;
+    font-size: 25px;
+    background-color: #ffffff;
+    border: 0.8px solid #777777;
+    color: #0A1E5C;
+}
+.btn-danger:hover{
+    background-color: #ffffff;
+    color: #0A1E5C;;
+    border: 0.8px solid #777777;
+}
+.btn-danger-check:active+.btn, .btn-check:checked+.btn, .btn-danger.active, .btn.show, .btn-danger:active{
+    background-color: #ffffff;
+    color: #0A1E5C;
+    box-shadow: none !important;
+    border: 0.8px solid #777777;
+}
+.btn-check:active+.btn:focus, .btn-check:checked+.btn:focus, .btn.active:focus, .btn.show:focus, .btn:active:focus{
+    box-shadow: none;
+}
+.btn-danger-check:focus+.btn, .btn-danger:focus{
+    background: #ffffff;
+    color: #0A1E5C;
+    box-shadow: none;
+    border: 0.8px solid #777777;
+}
+.modal-footer{
+    border-top: none;
+    display: inline-block;
+}
+.modal-footer .btn-primary{
+    height: 53px;
+    width: 100%;
+    border-radius: 62px;
+    background-color: #0A1E5C;
+    border: 1px solid #0A1E5C;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 29px;
+}
+.btn-primary-check:focus+.btn, .btn-primary:focus {
+    box-shadow: none !important;
+    color: #ffff;
+}
+
+
+/* SEARCH-LOCATION CODE CSS */
+.img-fluid{
+    margin-right: 10px;
+}
+.address{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #A6A6A6;
+}
+.map-img{
+    height: 296px;
+    width: 460.8px;
+    border-radius: 11px;
+    margin: -16px;
+    margin-top: 0px;
+}
+

@@ -1,0 +1,280 @@
+/* REGISTRATION CSS */
+
+.sub-heading-setup{
+    padding: 20px 50px;
+    color: #0A1E5C;
+}
+.setup-register{
+    margin-right: 0px;
+}
+.registration-complete-pages{
+    padding: 10px 45px 10px 45px;
+}
+.registration-complete-pages .row{
+    margin-right: 0px;
+}
+.registration-type img{
+    margin-right: 11px;
+}
+.registration-type label{
+    display: block;
+    margin-bottom: 1.25rem;
+}
+.registration-type input{
+    margin-bottom: 20px;
+}
+.registration-type .row .col-md-6:first-child{
+    padding: 0px 40px 0px 1.5rem;
+}
+.registration-type .row .col-md-6:last-child{
+    padding: 0px 1.5rem 0px 40px;
+}
+.registration-type .sub-heading-setup{
+    padding: 0px;
+}
+.registration-type .register-faces-btn{
+    padding: 4px 25px;
+    border: 2px solid #0A1E5C;
+    background-color: #fff;
+    color: #0A1E5C;
+    border-radius: 15px;
+    margin-right: 12px;
+}
+.registration-type .differentiate-label{
+    display: flex;
+    font-size: 14px;
+    color: #000000;
+}
+.registration-type label::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+.register-btn-wrap{
+    display: flex;
+    margin: 10px 0px 10px 80px;
+}
+.register-btn-wrap button{
+    text-transform: none;
+    border-radius: 50px;
+}
+.register-button-wrapper{
+    display: flex;
+    margin: 10px 0px 10px 150px;
+}
+.register-button-wrapper button{
+    text-transform: none;
+    border-radius: 50px;
+}
+.register-btn-wrap button:first-child{
+    margin-right: 7px;
+}
+.registration-type .uploaded-btn{
+    background: #0A1E5C;
+    color: #fff;
+    border: 1px solid #0A1E5C;
+    border-radius: 50px;
+    padding: 9px 20px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.registration-type #uploaded-btn{
+    background: #fff;
+    color: #0A1E5C;
+    border: 1px solid #0A1E5C;
+    border-radius: 50px;
+    padding: 7px 33px;
+    font-weight: 600;
+}
+.registration-type .label-faces{
+    display: flex;
+}
+.registration-type .label-faces li{
+    margin-right: 70px;
+    margin-top: 10px;
+    color: #0A1E5C;
+    font-size: 16px;
+    font-weight: 500;
+}
+.labelling-faces{
+    padding: 5px 40px !important;
+    font-weight: 500;
+}
+
+
+
+/* IMAGE LABELLING CSS */
+
+
+.set-thumbnail .right-thumbnail-arrow{
+    margin-right: 0px;
+}
+.set-thumbnail .set-thumbnail-numbering{
+    background-color: #fff;
+    color: #0A1E5C;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #0A1E5C;
+    border-radius: 12px;
+    padding: 3px 14px;
+}
+.set-thumbnail .thumbnail-image{
+    position: relative;
+}
+.thumbnail-image .register-thumbnail{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0A1E5C;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 45px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+.different-labelling-btns .uploaded-btn{
+    padding: 7px 38% !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+.different-labelling-btns #uploaded-btn{
+    padding: 7px 35% !important;
+}
+.thumbnail-image .thumb-btn{
+    left: 20%;
+}
+.set-thumbnail .label-btn{
+    background-color: #0A1E5C;
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 45px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+}
+.thumbnail-image .face-label-mark{
+    position: absolute;
+    top: 33%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* PROPERTY DETAILS CSS */
+
+
+.property-details-container .registration-type .row{
+    margin-right: 0px;
+}
+.property-details-container .registration-type img{
+    margin-right: 11px;
+}
+.property-details-container{
+    padding: 10px 45px 10px 45px;
+}
+.property-details-container .registration-type .form-check{
+    display: inline-block;
+}
+.property-details-container .registration-type  .form-check-input:checked {
+    background-color: #03AA14;
+    border-color: #03AA14;
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+.property-details-container .registration-type .row .col-md-6:first-child{
+    border: none;
+    padding: 0px 40px 0px 1.5rem;
+}
+.property-details-container .registration-type .form-select{
+    border: none;
+    border-bottom: 1px solid #0A1E5C;
+    border-radius: 0px;
+    color: rgba(0, 0, 0, 0.2);
+    padding-left: 0px;
+}
+
+.property-details-container .registration-type .form-select option{
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+.property-details-container .registration-type .input-group .form-outline{
+    width: 93%;
+}
+
+.property-details-container .registration-type .input-group .duration-calendar{
+    border-bottom: 1px solid #0A1E5C;
+}
+.register-input-col{
+    position: absolute;
+    margin-left: -30px;
+}
+.differentiate-label img{
+    width: 22px;
+    height: 21px;
+}
+.change-background{
+    color: #fff !important;
+    background-color: #0A1E5C !important;
+}
+.registration-type h6{
+    font-size: 16px;
+    color: #315576;
+}
+.registration-type p{
+    font-size: 16px;
+    color: #000000;
+}
+
+
+
+/* FACE REGISTRATION CSS */
+
+.face-registration-container{
+    padding: 10px 45px 10px 45px;
+}
+.face-registration-container .differentiate-label{
+    display: flex;
+    font-size: 14px;
+    color: #000000;
+}
+.face-registration-container .differentiate-label img{
+    margin-right: 11px;
+}
+.face-registration-container .face-registration-left .row{
+    border: 1px solid #E4EAF0;
+    border-radius: 5px;
+    padding: 12px;
+}
+.face-registration-container .face-registration-right .row{
+    border: 1px solid #E4EAF0;
+    border-radius: 5px;
+    padding: 12px;
+}
+.face-registration-container .face-registration-left{
+    padding-right: 20px;
+}
+.face-registration-container .face-registration-right{
+    padding-left: 20px;
+}
+.face-registration-container span{
+    color: #315576;
+}
+
+
+
+

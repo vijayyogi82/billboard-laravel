@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;0,900;1,200;1,300;1,400;1,700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Global variabls */
+:root {
+    --main-bg-color: #0A1E5C ;
+    --color-red: red;
+    --color-white: #ffffff;
+    --font-size-small: 14px;
+    --d-flex: flex;
+    --flex: 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.common-form-btn a{ color:white;}
+.btn { transition:none !important; padding: 0; border: 0;}
+
+.logo{font-size: 23px; color: white;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: var(--color);
+}
+
+p {
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    outline: 0;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: none;
+    color: var(--color-white);
+    border-radius: 4px;
+    padding: 12px;
+    border: 1px solid;
+    max-width: 100%;
+}
+
+.primary-btn {
+    background:#0A1E5C;
+    border-color: 1px solid #2C3C59;
+}
+
+.common-form-btn {
+    background: #0A1E5C;
+    border-radius: 10px;
+    border-color: #0A1E5C;
+    font-size: 14px;
+    padding: 8px 40px;
+    font-weight: 400;
+}
+.common-btn-border{
+    background: #fff;
+    border-radius: 10px;
+    border-color: #0A1E5C;
+    color: #0A1E5C;
+    font-size: 14px;
+    padding: 8px 40px;
+    font-weight: 500;
+}
+/* Modal Css */
+.modal-content {
+    border-radius: 30px;
+}
+.modal-content1{background-color: white; border-radius:15px;}
+.modal-body {
+    padding: 0;
+}
+
+.col-4,
+.col {
+    padding: 0;
+}
+
+.form-wrap {
+    width: 100%;
+}
+
+.form-wrap ul li {
+    margin-bottom: 14px;
+}
+
+.btn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.btn-wrap p {
+    font-style: italic;
+    font-weight: 400;
+    padding-top: 5px;
+    color: #7C7C7C;
+    font-size: 12px;
+}
+
+.btn-wrap a {
+    font-size: 12px;
+    color: #3C4F76;
+}
+
+.btn-wrap button img {
+    padding-left: 6px;
+    width: 20px;
+}
+
+label {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    color: #315576;
+    width: 100%;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    border-bottom: 1px solid #3C4F76 !important;
+    outline: 0;
+    border: 0;
+    padding: 5px 0;
+}
+
+.form-wrap li label img {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Steper css start*/
+.steper-wrap {
+    background-color: #0A1E5C;
+    height: 100%;
+    border-radius: 30px 0 0 30px;
+}
+
+.steper-wrap ul li {
+    padding: 20px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.steper-wrap ul li:first-child {
+    border-radius: 30px 0 0 0;
+    position: relative;
+    height: 120px;
+}
+
+.steper-wrap ul li .hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    padding: 5px 10px;
+    width: 180px;
+    height: 45px;
+    background: #0A1E5C;
+    border-radius: 0px 40px 40px 0px;
+    bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.steper-wrap ul li img {
+    width: 40px;
+}
+
+.steper-wrap ul li span {
+    padding-left: 20px;
+    display: inline-grid;
+}
+
+.steper-wrap ul li.active {
+    background: rgba(7, 0, 47, 0.44);
+}
+
+.steper-wrap em {
+    display: flex;
+    font-style: italic;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 30px;
+    align-items: center;
+}
+
+.steper-wrap em img {
+    height: 12px;
+    display: inline-block;
+    padding-left: 4px;
+}
+
+.form-wrap .title small img{padding:5px;}
+.form-wrap .title em{ color: #3C4F76;}
+
+/* Steper css end*/
+
+.input-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .input-container:hover input ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .input-container input:checked ~ .checkmark {
+    background-color: #3C4F76;
+    border-color: #3C4F76;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .input-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .input-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active{
+    background: transparent;
+    color: #0A1E5C;
+    border-color: transparent;
+    outline: none;
+  }
+
+  ::placeholder{ color: rgba(0, 0, 0, 0.12);}
+  
+  input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 340;
+  }
+  
+  input::-webkit-datetime-edit {
+    position: relative;
+    left: 15px;
+  }
+  
+  input::-webkit-datetime-edit-fields-wrapper {
+    position: relative;
+    left: 15px;
+  }

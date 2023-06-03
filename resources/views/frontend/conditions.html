@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>billboard</title>
+    <link href="./asset/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./asset/css/modal.css" rel="stylesheet"/>
+    <link href="./asset/css/popup.css" rel="stylesheet"/>
+    <link href="./asset/css/common.css" rel="stylesheet"/>
+    <script src="./asset/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="asset/css/responsive.css">
+    <link rel="stylesheet" href="asset/css/mobile-app.css">
+    <link rel="stylesheet" href="asset/css/registration-popup.css">
+</head>
+<body>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" id="upload-modal">
+        <div class="modal-header">
+          <h1 class="modal-title" id="staticBackdropLabel">Terms & Conditions</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body owner-condition" >
+          <p>Lorem ipsum dolor sit amet consectetur. Arcu consectetur ut mi feugiat imperdiet sed massa in. Arcu at turpis tincidunt convallis purus risus elementum mattis. Dictumst lacus consectetur aenean libero aliquam iaculis est quis amet. Dolor vulputate amet proin molestie ac cursus donec laoreet sit. Congue nibh integer iaculis eget aliquam vitae luctus risus. Parturient elementum et enim nec. Aenean nunc mus enim a luctus tempor enim hac. Et est dui eget semper morbi. Convallis cras ultrices odio suscipit arcu sed magna.
+            Lectus bibendum in massa sit. Sit et ut sagittis id gravida integer nunc. Auctor facilisis fusce nulla donec. Varius nibh enim pharetra in sem nibh mi vitae enim. Lacus sed tellus sed morbi ullamcorper. At leo morbi a proin. Bibendum elementum a vitae vel cras gravida maecenas. Amet gravida tempor ornare faucibus placerat eget commodo tellus eget.</p>
+        </div>
+        <div class="modal-footer">
+            <div class="btn-wrap p-0">
+                <a href ="./login.html"><button type="button" class="button common-form-btn">Accept</button></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="asset/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $("#staticBackdrop").modal('show');
+      });
+  </script>
+</body>
+</html>

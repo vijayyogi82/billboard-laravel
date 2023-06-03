@@ -1,0 +1,7 @@
+.sub-popup{ display: flex; align-items: center; justify-content: center;}
+.sub-popup input{width: 80%; border: none; border-bottom: 1px solid #0A1E5C !important;}
+.yes-no-button button{border-radius: 50px !important; }
+.subs{margin-top: 20px !important;}
+.modal-body .add-min .plus{ background-color:#0A1E5C;border-radius: 6px;padding: 7px 16px;margin-left: 10px; }
+.modal-body .add-min .minus{ background-color: #0A1E5C;border-radius: 6px;padding: 7px 16px; margin-left: 10px; }
+.modal-body .add-min{display: flex;}

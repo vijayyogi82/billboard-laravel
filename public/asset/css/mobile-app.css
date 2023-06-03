@@ -1,0 +1,130 @@
+.app-container .mobile-app-box{ display: flex;}
+.app-container{display: none;}
+.app-container .mobile-app-box .mobile-app-left{flex: 1; }
+.app-container .mobile-app-box .mobile-app-left img{width: 100%;}
+.app-container .mobile-app-box .mobile-app-right ul li{ font-size: 12px; padding: 3px 0; font-weight: 500; color: #646464;}
+.app-container .mobile-app-box .mobile-app-right ul li strong{ color: #0A1E5C; font-size: 14px; padding: 0 !important;}
+.app-container .mobile-app-right{ margin-left: 20px; }
+.app-container .mobile-app-box .mobile-app-right ul li:nth-child(1){ padding: 0;}
+.app-container .bottom-img ul{display: flex;}
+.app-container .bottom-img ul li{padding-top: 5px; padding-left: 6px;}
+.app-container .bottom-img ul li:nth-child(1){ padding-left: 0;}
+.mobile-app-right button{background-color: #0A1E5C; color: white; border-radius: 6px; border: 0; padding: 5px 10px;}
+#strong-span{display: none;}
+.undisplaying-content{display: none;}
+
+/* CSS BY TANISHA ON POPUPS */
+@media only screen and (max-width: 991px){
+    #modal-full-container .col-md-4 img{height: 627px!important;}
+    .login-form{padding: 0px 41px !important;}
+    #btn-common-form{padding: 8px 53px!important;width: 100%!important;}
+    .steper-wrap ul li span{padding: 0px!important;font-size: 12px!important;}
+    .steper-wrap ul li{padding: 0px!important;}
+    #modal-full .col-md-4{display: none!important;}
+    #modal-full .col-md-8{display: contents!important;}
+    #select-product {margin-top: 40px!important;}
+    #billboard-cell-center{display: block!important;}
+    .billboard-box .comprative-ce{width: 100%!important;}
+    #billboard-cell-center-part{display: flex!important;}
+    .flighting-box{display: none!important;}
+    .comprative-r .existing-bill h1{margin-top: 30px!important;}
+    #displaying-changes ul li:nth-child(2){display: block!important;}
+    #displaying-changes ul li:nth-child(1){display: block!important;}
+    .pending .print-info ul li .pending-wo{width: 20%!important;float: right!important;}
+    #print-user-dot{width: 20%!important;float: left!important;}#flig-user-dot-second{width: 20%!important;float: right!important;}
+    .user-online ul li .user-p-f{display: block!important;}
+    .compratic-top-filter ul{padding: 0 0 30px 15px !important;}
+    .generatemar .common-form-btn{margin-top: 11px!important;}
+    #mobile-print-service-wrap{margin-top: 88px!important;}
+    .mobile-cell-center{margin: auto!important;}
+    .click-button{margin-left: 0px!important;}
+}
+
+@media only screen and (max-width: 767px){
+    #btn-common-form{padding: 8px 0px!important;width: 100%!important;}
+    #modal-full-container .col-md-4 img{display: none!important;}
+    #modal-container .row>*{padding: 0px!important;}
+    #modal-container .steper-wrap{border-radius: 30px 30px 0 0!important;}
+    .steper-wrap ul li:first-child{height: 87px!important;padding: 20px 20px 0 20px!important;border-radius: 0px !important;}
+    .steper-wrap #flex-style li{font-size: 18px !important;padding: 9px 20px 0px 20px !important;height: 87px !important;}
+    .right{width: 150px !important;}
+    .steper-wrap ul li img{height: 62px !important;}
+    .owner-button button{width: 110px !important;}
+    .pending .print-info ul li .pending-wo{width: 30% !important;}
+    .undisplaying-content{display: block !important;}
+    .top-content-2 li #select-du{display: none !important;}
+    #print-user-dot{width: 30% !important;}#flig-user-dot-second{width: 30% !important;}
+    .user-online ul li .user-p-f{display: block !important;}
+    #print-service-wrap{margin-top: 45px !important;}
+    .compratic-top-filter .side-filter{margin-top: 42px !important;}
+    #tex .side-filter{margin-top: 71px !important;}
+    .billboard-tex h3{padding: 0px !important;font-size: 18px !important;}
+    .bulk-button button {font-size: 15px !important;padding: 6px 6px 6px 6px !important;}
+}
+
+@media only screen and (max-width: 450px){
+    #btn-common-form{padding: 8px 0px !important;width: 100% !important;font-size: 12px !important;}
+    .create-account-step2 .form-wrap ul li {margin-left: 16px !important;flex: 0 0 94% !important;}
+    .create-account-step2 .form-wrap ul li:nth-child(3){flex: 0 0 94% !important;}
+    .create-account-step2 .title{margin-left: 16px !important;}
+    .create-account-step3 .form-wrap ul li {margin-left: 16px !important;flex: 0 0 94% !important;}
+    .create-account-step3 .title{margin-left: 16px !important;}
+    .create-account-step3 .form-wrap ul li:nth-child(3){flex: 0 0 94% !important;}
+    .create-account-step4 .form-wrap ul li {margin-left: 16px !important;flex: 0 0 94% !important;}
+    .create-account-step4 .title{margin-left: 16px !important;}
+    .create-account-step4 .form-wrap ul li:nth-child(3){flex: 0 0 94% !important;}
+    .create-account-step2 ul li label{font-size: 13px !important;}
+    .user-online .top-new-filter{margin-top: 15px !important;}
+    .pending .print-info ul li .pending-wo{width: 50% !important;}
+    .mobile-respon{display: block !important;}
+}
+
+@media only screen and (max-width: 405px){
+    #button-rounding{width: 105px !important;}
+    .button #button-rounding{padding: 9px 0px !important;}
+    .ad{padding: 25px 23px 25px !important;}
+    .inventory ul li .export-email{margin-top: -28px !important;}
+    .generate-button{left: 0px !important;font-size: 16px !important;}
+    .call-box1{width: 110px !important;margin-right: 0px !important;}
+    .box-container{margin: 0px !important;}
+    .call-box{margin-right: 0px !important;}
+}
+
+@media only screen and (max-width: 357px){
+    .account-verification h1{font-size: 28px !important;}
+    .account-verification em{font-size: 20px !important;}
+    .input-box input{margin-right: 5px !important;}
+    #not-input{width: 285px !important;}
+}
+@media only screen and (max-width: 373px){
+    .brand{width: 32px !important;}
+    .camping ul li .question-mark-image {margin-top: 26px !important;}
+    .box input{width: 160px !important;}
+    .box .brand{width: 50px !important;}
+    .right{width: 110px !important;}
+}
+
+@media only screen and (max-width: 500px){
+    .box input{width: 275px !important;}
+    #yellow-star{width: 7% !important;}
+    #services-media-query{padding: 8px 20px !important;}
+    .filter{width: 100% !important;}
+    .sepration{width: 100% !important;}
+    #top-result{padding-bottom: 50px !important;display: flow-root !important;}
+    .camping input{width: 72% !important;}
+    .birthday{width: 72% !important;}
+    #billbord-typ-active{width: 72% !important;}
+}
+
+@media only screen and (max-width: 1275px){
+    .campaign-coca-1 .print-box ul li .select-print{
+        padding: 0px 3px !important;
+        font-size: 13px !important;
+    }
+    .print-box .print-info ul li .rating-star{
+        font-size: 22px !important;
+    }
+    .print-box ul li:nth-child(3) span{
+        font-size: 22px !important;
+    }
+}

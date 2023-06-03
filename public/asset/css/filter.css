@@ -1,0 +1,60 @@
+@import url(common.css);
+
+#filter { width: 495px; box-shadow: 1px 0px 23px rgba(0, 0, 0, 0.25); }
+.billborad{ padding: 20px; position:relative; width: 100%; }
+.billboard h1{  font-size:27px; font-weight: 700;}
+.filter .btn-close{ position:absolute; right:20px; top: 25px; font-size: 18px; } 
+#filter .filter-container{ display: flex; position: relative; padding: 60px 20px 10px 20px; }
+#filter .filter-container .apply-button{ position: absolute;right: 20px; border-radius: 5px; background-color: #3C4F76; color: white; border: none; padding: 3px 10px;font-size: 16px; font-weight: 400;}
+#filter .filter-container img{ padding: 0 10px 0 0; } 
+#filter .filter-container h3{ font-size: 27px;font-weight: 500;color: #333333;}
+.sepration{ height: 1px; width: 448px; margin: 10px auto; background-color:#333333; display: flex; align-items: center;}
+#filter .filter-accordion .accordion-button{ font-size: 22px; font-weight: 500; color:#333333 !important; padding: 14px 17.5px}
+#filter .accordion-body ul li{ display: flex; align-items: center; margin-top: 8px; }
+#filter .filter-accordion .accordion-body{padding: 14px 17.5px;}
+#filter  .box{ width: 41px; height: 20px;  border: 1px solid ; border-radius: 5px; margin: 6px; text-align: center;}
+#filter  .accordion-body ul li:nth-child(2){font-style: italic;}
+#filter .radius-in-kilometres{ width: 100%; margin-top: 16px;}
+#filter .kilometres{ font-size: 14px;color: #3C4F76;font-weight: 500;padding:0 18px 0 0;}
+#filter .location-radius p{ font-size:14px; color: #3C4F76; display: flex; justify-content: center; font-weight: 500;}
+#filter .form-check-input:checked {
+    background-color: #3C4F76;
+    border-color: #3C4F76;
+    font-size: 21px;
+}
+#filter .form-check{
+    padding-left: 33px !important;
+}
+#filter .form-check-input[type=checkbox] {
+    font-size: 17px;
+    margin-top: 2;
+}
+#filter .form-check-input:focus{
+    box-shadow: none !important;
+}
+#filter .fa-star{
+    color: #FFE600;
+    padding-left: 6px;
+    font-size: 21px;
+}
+#filter label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+#filter .accordion-body .form-check span{ font-size: 17px; color: #3C4F76; font-weight: 500;}
+#filter .radius-in-kilometres .kilometres{font-size: 17px; color:#3C4F76; font-weight: 500;}
+
+#filter #span{color: #3C4F76; font-size: 17px; margin: 0 14px 0 7px;}
+
+#filter .form-check-dimension{padding: 20px 0; display: flex; margin-left: 10px;}
+#filter .box-d-second .custom{ margin: 0; padding: 0; width: 40px;     border: 1px solid;
+    border-radius: 7px; padding: 0px 10px; text-align: center;}
+#filter .box-d-second .custom-second{ margin: 0; padding: 0; width: 40px;     border: 1px solid;
+        border-radius: 7px; padding: 0px 10px;}
+#filter.box-d-second .cross{ padding: 0 5px; margin: 0;}
+#filter.box-d-second .cross{ padding: 0 5px; margin: 0;}
+#filter.box-d-second .custom-text{ margin-right: 5px; margin-left: 0;}
+#filter.box-d-second {margin-left: 20px;}

@@ -1,0 +1,123 @@
+/* CSS CODE BY TANISHA */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+#integrate-reprinting{
+    border-radius: 20px;
+    padding: 0px 20px 10px 20px;
+}
+#integrate-reprinting .modal-body{
+    padding: 16px 16px 0px 16px;
+}
+#integrate-reprinting .modal-header{
+    border-bottom: none !important;
+    padding-bottom: 0px;
+}
+#integrate-reprinting .modal-title{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #333333;
+    margin: auto;
+}
+#integrate-reprinting .modal-header .btn-close{
+    margin: 0px;
+    border-radius: 50px !important;
+    margin-top: 6px;
+    opacity: 1;
+}
+#integrate-reprinting .btn-close{
+    color: #0A1E5C !important;
+    border: 3px solid #0A1E5C !important;
+}
+#integrate-reprinting .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-reprinting  .reprint{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+#integrate-reprinting .form-check{
+    display: flex;
+}
+#integrate-reprinting .form-check-input{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #000000;
+}
+#integrate-reprinting .form-check-label{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    margin: 10px;
+}
+#integrate-reprinting .mb-3{
+    margin-top: 1rem;
+}
+#integrate-reprinting .form-control{
+    height: 125px;
+    border-radius: 13px;
+    box-shadow: 0px 7px 10px 0px #0000000D inset;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    color: #A1A1A1;
+}
+#integrate-reprinting .modal-footer{
+    border-top: none;
+    display: inline-block !important;
+}
+#integrate-reprinting .btn-primary{
+    width: 100%;
+    height: 46px;
+    border-radius: 50px;
+    background-color: #0A1E5C;
+    border: 1px solid #0A1E5C;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 29px;
+    text-align: center;
+}
+#integrate-reprinting .btn:hover {
+    color: #ffffff;
+    background-color: #0A1E5C;
+    border: 3.4px solid #0A1E5C;
+}
+#integrate-reprinting .btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active {
+    color: #ffffff;
+    background-color: #0A1E5C;
+    border: 3.4px solid #0A1E5C;
+}
+#integrate-reprinting .btn-check:focus+.btn, .btn:focus {
+    color: #ffffff;
+    background-color: #0A1E5C;
+    border: 3.4px solid #0A1E5C;
+    box-shadow: none;
+}
+#integrate-reprinting .btn-check:active+.btn:focus, .btn-check:checked+.btn:focus, .btn.active:focus, .btn.show:focus, .btn:active:focus {
+    box-shadow: none;
+}
+
+
+@media screen and (max-width: 310px){
+    #integrate-reprinting .form-check-label{font-size: 13px;}
+}
+@media screen and (max-width: 415px){
+    #integrate-reprinting #btn-close{height: 1em;width: 1em;}
+}

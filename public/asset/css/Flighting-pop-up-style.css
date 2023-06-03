@@ -1,0 +1,171 @@
+/* CSS CODE BY TANISHA */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* body{
+    box-sizing: border-box;
+} */
+/* .modal{
+    --bs-modal-padding: 51px !important;
+} */
+/* .modal-body{
+    padding-bottom: 0px;
+} */
+#integrate-flighting-popup{
+    border-radius: 25px !important;
+    height: 569px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .printing{
+    border-radius: 25px !important;
+    width: 537px;
+    height: 625px;
+    background-color: #fff;
+} */
+#integrate-flighting-popup .modal-header{
+    border-bottom: none !important;
+    padding: 16px 40px 20px 51px !important;
+}
+#integrate-flighting-popup .modal-title{
+    color: #6B6B6B;
+    font-size: 28px !important;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin: auto;
+    line-height: 20px !important;
+    margin-top: 20px !important;
+}
+#integrate-flighting-popup .modal-header .btn-close{
+    margin: 0px;
+    border: 3px solid #3C4F76 !important;
+    border-radius: 50px !important;
+    margin-top: 6px;
+    opacity: 1;
+}
+#integrate-flighting-popup .btn-close{
+    color: #3C4F76 !important;
+    border: 3px solid #3C4F76 !important;
+}
+#integrate-flighting-popup .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-flighting-popup .modal-body{
+    padding: 25px 51px 0px;
+    padding-bottom: 0px;
+}
+#integrate-flighting-popup .modal-sub-title{
+    font-size: 27px;
+    font-family: 'Poppins';
+    line-height: 12px;
+    font-weight: 500;
+    color: #3C4F76;
+    margin-top: 10px;
+    margin-bottom: 51px;
+}
+#integrate-flighting-popup .modal-sub-title .sub-title{
+    font-weight: 400;
+}
+#integrate-flighting-popup .modal-body-paragraph{
+    font-size: 22px;
+    line-height: 32px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #6B6B6B;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+#integrate-flighting-popup .form-check{
+    margin-top: 27px !important;
+}
+#integrate-flighting-popup .form-check-input{
+    width: 28px;
+    height: 28px;
+    color: #3C4F76;
+}
+#integrate-flighting-popup .form-check-input:checked {
+    background-color: #3C4F76;
+    border-color: #3C4F76;
+}
+#integrate-flighting-popup .form-check-input:focus{
+    box-shadow: none;
+}
+#integrate-flighting-popup label{
+    display: block;
+}
+#integrate-flighting-popup label a{
+    color: #6B6B6B !important;
+}
+#integrate-flighting-popup .form-check-label{
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #6B6B6B !important;
+    text-align: justify;
+    padding-left: 24px;
+}
+#integrate-flighting-popup .modal-footer{
+    border-top: none;
+    padding: 47px;
+}
+#integrate-flighting-popup .modal-footer .btn-primary{
+    width: 432px;
+    height: 53px;
+    border-radius: 62px;
+    background-color: #3C4F76;
+    border-color: #3C4F76;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 29px;
+}
+#integrate-flighting-popup .btn-check:focus+.btn, .btn:focus {
+    box-shadow: none !important;
+}
+#integrate-flighting-popup .modal-footer{
+    padding-top: 18px;
+}
+
+
+@media screen and (max-width: 480px){
+    #integrate-flighting-popup .modal-sub-title{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    #integrate-flighting-popup .modal-body-paragraph{
+        font-size: 18px;
+    }
+    #integrate-flighting-popup .form-check-input{
+        width: 20px;
+        height: 20px;
+    }
+    #integrate-flighting-popup .form-check-label{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 409px){
+    #integrate-flighting-popup .modal-footer{
+        padding-top: 0px;
+    }
+    #integrate-flighting-popup .modal-body-paragraph{
+        font-size: 15px;
+    }
+    #integrate-flighting-popup .form-check-label{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    #integrate-flighting-popup .form-check-label{
+        font-size: 16px;
+    }
+    #integrate-flighting-popup .modal-footer{padding-top: 20px;}
+}
+
+
+@media screen and (max-width: 415px){
+    #integrate-flighting-popup .btn-close{height: 18px;width: 24px;}
+}
+
+#integrate-flighting-popup a{text-decoration: none; color: #6B6B6B;}
+#integrate-flighting-popup a:hover{text-decoration: none; color: #6B6B6B;}

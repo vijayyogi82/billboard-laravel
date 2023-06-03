@@ -1,0 +1,219 @@
+@import url(./common.css);
+/* Login popup start */
+.login-form{padding: 0 76px; height: 100%;}
+.login-form .title{padding-bottom:40px;}
+.login-form .title h1{font-size: 40px;color: #315576;font-weight: 500;}
+.login-form .title p{font-weight: 400;font-size:16px;color: #7C7C7C;line-height: 21px;}
+.login-form .form-wrap ul li span{font-weight: 600;font-size:16px;line-height: 36px;color: #315576;width: 100%; display: inline-block; text-align: center;}
+#btn-common-form{margin: auto;padding: 8px 119px;font-size: 14px;}
+.form-wrap #btn-common-form{margin: 0px;padding: 8px 125px;}
+/* Login popup End */
+/* create-account popup start */
+.create-account .form-wrap ul li .btn-wrap button a{ color: white; font-size: 12px;}
+.create-account .form-wrap ul li .btn-wrap button{font-size: 12px !important; padding: 8px 30px; text-transform: none;}
+.create-account .form-wrap ul li:last-child{margin-bottom: 0;}
+.create-account .form-wrap .title h6{font-style: normal; font-weight: 500; font-size: 18px;color: #5B5959;}
+.create-account .form-wrap .title h6 em{display: block;}
+.create-account{padding: 35px 50px 20px; height: 100%;}
+.create-account .title{padding-bottom:30px;}
+.create-account .title h1{font-size: 30px;color: #315576;font-weight: 500;}
+.create-account .title p{font-weight: 400;font-size:16px;color: #7C7C7C; padding: 20px;  display: flex; }
+.create-account ul li label{ font-size:15px;}   
+.form-wrap .title span{ color:white;padding: 0px 7px; background-color: #3C4F76;; font-weight: 500px; font-size: 16px;} 
+.create-account .btn-wrap{align-items: flex-end;}
+.form-wrap .title small{display: block;font-weight: 500;
+    font-size: 14px;color: #9B9B9B !important;padding-top: 18px;}
+#modal-full-container .row>*{padding-left: 0px;}
+#modal-container .row>*{padding: 0px;}
+#modal-full .row>*{padding: 0px;}
+/* create-account popup start */
+
+/* create-account-step2 start*/
+.create-account-step2 .form-wrap ul{display: flex; width: 100%; flex-wrap: wrap;}
+.create-account-step2 .form-wrap ul li{flex: 0 0 40%;}
+.create-account-step2 .form-wrap ul li:nth-child(3){flex: 0 0 100%;
+}
+.create-account-step2 .form-wrap ul li:nth-child(even){margin-left: 29px;}
+.create-account-step2 .form-wrap ul li .btn-wrap button a{ color: white; font-size:12px;}
+.create-account-step2 .form-wrap ul li .btn-wrap button{font-size: 12px !important; padding: 8px 30px; text-transform: capitalize;}
+.create-account-step2 .form-wrap ul li:last-child{margin-bottom: 0;}
+.create-account-step2 .form-wrap .title h6{font-style: normal; font-weight: 500; font-size: 18px;color: #5B5959;}
+.create-account-step2 .form-wrap .title h6 em{display: block;}
+.create-account-step2{padding: 35px 30px 20px; height: 100%;}
+.create-account-step2 .title{padding-bottom:30px;}
+.create-account-step2 .title h1{font-size: 30px;color: #315576;font-weight: 500;}
+.create-account-step2 .title p{font-weight: 400;font-size:16px;color: #7C7C7C; padding: 20px; background-color: red; display: flex; }
+.create-account-step2 ul li label{ font-size:15px;}   
+.form-wrap .title span{ color:white;padding: 0px 7px; background-color: #3C4F76;; font-weight: 500px; font-size: 16px;} 
+.create-account-step2 .btn-wrap{align-items: flex-end;}
+.form-wrap .title small{display: block;font-weight: 500;font-size: 14px;color:#3C4F76;padding-top: 18px;}
+.create-account-step2 .form-wrap ul li {margin-bottom: 14px;flex: 0 0 48%;
+}
+.create-account-step2 .form-wrap ul li:last-child{flex: 0 0 100%;}
+/* create-account-step2 Ends*/
+
+/* create-account-step3 Start */
+
+.create-account-step3 .form-wrap ul{display: flex; width: 100%; flex-wrap: wrap;}
+.create-account-step3 .form-wrap ul li{flex: 0 0 40%;}
+/* .create-account-step3 .form-wrap ul li:nth-child(3){
+    flex: 0 0 100%;
+} */
+.create-account-step3 .form-wrap ul li:nth-child(even){margin-left: 29px;}
+.create-account-step3 .form-wrap ul li .btn-wrap button a{ color: white; font-size:12px;}
+.create-account-step3 .form-wrap ul li .btn-wrap button{font-size: 12px !important; padding: 8px 30px; text-transform: capitalize;}
+.create-account-step3 .form-wrap ul li:last-child{margin-bottom: 0;}
+.create-account-step3 .form-wrap .title h6{font-style: normal; font-weight: 500; font-size: 18px;color: #5B5959;}
+.create-account-step3 .form-wrap .title h6 em{display: block;}
+.create-account-step3{padding: 35px 30px 20px; height: 100%;}
+.create-account-step3 .title{padding-bottom:30px;}
+.create-account-step3 .title h1{font-size: 30px;color: #315576;font-weight: 500;}
+.create-account-step3 .title p{font-weight: 400;font-size:16px;color: #7C7C7C; padding: 20px; background-color: red; display: flex; }
+.create-account-step3 ul li label{ font-size:15px;}   
+.form-wrap .title span{ color:white;padding: 0px 7px; background-color: #3C4F76;; font-weight: 500px; font-size: 16px;} 
+.create-account-step3 .btn-wrap{align-items: flex-end;}
+.create-account-step3 .form-wrap .title small{display: block;font-weight: 500; font-size: 14px;color: rgba(0, 0, 0, 0.2);padding-top: 18px; }
+
+    
+.create-account-step3 .form-wrap ul li {margin-bottom: 14px;flex: 0 0 48%;      
+}
+.create-account-step3 .form-wrap ul li:last-child{flex: 0 0 100%;}
+
+
+/* create-account-step3 End */
+
+/* account-verification start */
+.account-verification{ padding:28px;}
+.account-verification h1{ font-size: 35px; color: #0A1E5C; text-align: center;}
+.account-verification em{ display:flex; justify-content: center; font-size: 25px; font-weight: 400; color: rgba(107, 107, 107, 1);}
+.account-verification small{font-size:16px;display: flex; justify-content: center; font-style: italic; color: black; font-weight: 500; }
+.sent-otp{ display: flex;align-items: center;justify-content: center; font-size: 18px; }
+.sent-otp button{ border-radius: 10px;padding: 6px 40px; background-color: #0A1E5C; color: white; border: 0;}
+.call-box{ display: flex;align-items: center; justify-content: center; background: border-box; border-radius: 20px; width: 110px; height: 100px; border: 3px solid #0A1E5C; box-sizing: border-box; margin-right: 30px;}
+.call-box img{ max-width: 50%;}
+.box-container{ margin:0 40px; color:#6B6B6B; display: flex; justify-content: center; padding-bottom: 30px;}
+.mail-box{ margin-left:20px;display: flex;align-items: center; justify-content: center; background: border-box; border-radius: 20px; width: 110px; height: 100px; border: 3px solid #0A1E5C; box-sizing: border-box;}
+.mail-box img{max-width: 50%; }
+
+/* account-verification end */
+/* account-verification-select-box start */
+.account-verification-select-box{ padding: 28px; display: flex; justify-content: center;align-items: center; flex-direction: column;}
+.mail-box1{ color:white;flex-wrap:wrap; margin-left:20px;display: flex;align-items: center; justify-content: center; background: border-box; border-radius: 20px; width: 110px; height: 100px; background-color:#0A1E5C; box-sizing: border-box;}
+.mail-box1 img{max-width: 50%; padding-top:20px;}
+.otp-send{padding: 10px 10px 30px 10px; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.otp-send h2{font-size: 30px; color: #0A1E5C; text-align: center;}
+.otp-send p{ font-size: 12px; color: rgba(124, 124, 124, 1); font-style: italic;}
+.input-box{ padding:20px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center;}
+.input-box input{ width: 45px; height: 40px; padding: 10px; text-align: center; background-color:#F5F4F4; margin-right: 20px; border-bottom: 2px solid #3C4F76;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);}
+.input-box em{ color:rgba(124, 124, 124, 1);font-size: 17px; margin-top: 10px; margin-left: -13px; font-style: italic;}  
+.input-box small{ font-style: normal; color: #0A1E5C; font-weight: 500; font-size: 16px;}  
+/* account-verification-select-box end */
+
+/* account-verification-mobile */
+.call-box1{ color:white;flex-wrap:wrap;display: flex;align-items: center; justify-content: center; background: border-box; border-radius: 20px; width: 110px; height: 100px; background-color: #0A1E5C; box-sizing: border-box; margin-right: 30px;}
+.call-box1 img{max-width: 50%; padding-top:20px;}
+
+
+/* location star  */
+/* .location-select img{ width: 29px;} */
+.image-box{ display: flex; align-items: center; justify-content: center; padding: 15px;}
+.location-select .button{ display: flex; align-items:center; justify-content:center;}
+.location-select .locate-btn{border: none !important;}
+.location-select .button button{width:154px; height:41px; font-weight: 600px; font-size: 16px;border: 1px solid #C4C4C4;background: #fff;}
+.location-select .button .active{background: #0A1E5C; border-color: #0A1E5C; color: #fff;}
+.text-area{position: relative; display: flex; align-items: center; margin-top: 20px;}
+.text-area input{padding-left: 53px;box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);height: 44px;}
+.text-area span{position: absolute;left: 6px; padding-right: 6px;}
+.location-select small{    font-weight: 700;font-size: 14px;display: flex;justify-content: center;width: 100%;padding: 20px 0;}
+.autodetect{font-size: 14px;display: flex;justify-content: center;width: 100%;}
+.next-btn{display: flex;justify-content: center;width: 100%; padding: 20px 0 30px 0; }
+.next-btn img{padding-left: 6px;}
+.selection .accordion-button{color: #0A1E5C;font-weight: 500;font-size: 14px; background: transparent !important;}
+.selection .accordion-body{padding: 0 !important;}
+.selection .accordion-collapse ul{box-shadow: inset 0px -2px 8px rgba(60, 79, 118, 0.09);}
+.selection .accordion-collapse ul li{padding: 10px; border-bottom: 0.75px solid rgba(60, 79, 118, 0.2);font-weight: 400;font-size: 10px;color: #0A1E5C;}
+.selection .accordion-collapse ul li:last-child{border: none;}
+.selection .accordion-button:not(.collapsed)::after{font-size: 12px;}
+.text-area input::placeholder{color: #A3A3A3;}
+/* camping start */
+
+.camping ul li img{ width: 25px !important; height: 25px !important;}
+.camping label { font-size: 50px;}
+.camping ul li input{width:100%;color:red; position: relative;}
+.create-account-step2 .advertise ul{ display: block;}
+.create-account-step2 .advertise ul li{margin-left: 0 !important;}
+.left{ display: block !important; }
+.right{ width:261px; height: 31px;display: flex;align-items: center;justify-content: center;font-size: 15px; font-weight: 600;}
+.left span{ color:#315576;display: flex;align-items: flex-end;justify-content: flex-end;margin-top: -31px;}
+.questionmark{ position: absolute; right: 0; right: 40px; width:40px;height: 40px;}
+.questionmark img{ width: 26px !important; height: 26px !important;}
+.brand{ position: absolute; right: 55px; background-color:#0A1E5C;width: 60px;border-radius: 50px;display: flex;align-items: center;justify-content: center;margin-top: -31px; z-index: 11;}
+.duration{ position: absolute;right: 55px; z-index: 2;}
+
+ /* brand popups */
+ 
+
+.brandp ul li{font-weight: 600;font-size: 28px; color: #0A1E5C;}
+.brandp ul li span{ margin-left: 10px;}
+.brandp ul li img{ width: 32px; height: 32px;}
+  
+.box input {width:330px;background: #FFFFFF;margin-top: 30px;border: 2px solid #0A1E5C !important;box-shadow: 0px 4px 14px -8px rgba(0, 0, 0, 0.25);border-radius: 6px;}
+.box .brand{width: 78px; height: 37px;margin-top: -36px;}
+.box{ padding: 0 0 29px 0;
+    border-bottom: 1px solid; color: #D9D9D9;}
+.no-brand{ padding: 65px !important;display: flex;align-items: center;justify-content: center;padding: 20px;font-size: 16px;color: #B5B5B5; border-bottom: 1px solid #D9D9D9;}   
+.coca ul li{position:relative;font-size: 20px; padding-top: 20px; font-weight: 500; padding-bottom: 80px; border-bottom: 1px solid #D9D9D9;}
+.circle{ position: absolute; right: 0; border-radius: 50px; border: 1px solid;}
+
+/* campagin start */
+
+.campaign .inner-container{margin-bottom:20px; width:100%; border: 2px solid #F4ECEC; border-radius: 8px; padding: 10px; display: flex; }
+.inner-container .left-side{ display: flex; }
+.inner-container .right-side{margin-left: 20px; position: relative; width: 303px;}
+.inner-container .right-side h2{ font-size: 25px;}
+.inner-container .right-side span{ font-size: 20px;}
+.inner-container .right-side em{ margin-left: -172px; font-size: 21px; font-size: 16px; color: #ADADAD;}
+.inner-container .arrow{ position: absolute;right: 0;top: 27px;}
+
+/* campaign-second */
+.campaign-second .inner-container{width:100%; border: 2px solid white; border-radius: 8px; padding: 10px; display: flex; }
+.campaign-second .inner-container .arrow{ top: -5px;  }
+.campaign-second .text-inner{ display: flex; position: relative; margin-bottom: 10px; }
+.campaign-second .text-inner span{ margin-left: 70px; color: #315576; font-weight: 500;}
+.campaign-second .text-inner strong{ color: #315576; font-weight: 500; margin-right: 3px;}
+.campaign-second .add-box{ border-radius: 10px;padding: 0 10px 0 10px;position: absolute;right: 203px;top: 167px; background-color:#0A1E5C; color: white; font-size: 12px;}
+.select-product ul{padding: 0 15px 25px 15px;display: flex; width: 100%; align-items: center; justify-content: center;}
+.select-product ul li{padding: 0 30px; font-size: 20px;  border:1px solid  rgba(107, 107, 107, 1);}
+
+/* .user-cell1 .box ul li{ width: 50%; height: 50%;} */
+.select-product ul li a { color:  rgba(107, 107, 107, 1);}
+.select-product ul li.active{background: #0A1E5C; position: relative;}
+.select-product ul li.active::after{ position: absolute; width: 0;content: '';bottom: -15px;left: 66px;height: 0;border-left: 15px solid transparent;border-right: 15px solid transparent;border-top: 15px solid #0A1E5C;font-size: 0;line-height: 0;float: left;}
+.select-product ul li.active a{color: #fff;}
+.second-box .inner-container{ width:100%; border: 2px solid #F4ECEC; border-radius: 8px; padding: 10px; display: flex; }
+.select-box  small{font-style: normal !important;}
+
+.button .active{background-color: red;}
+
+
+.datepicker-dropdown {background-color: #0A1E5C; color: white; }
+
+.btn-wrap .sent-otp a{ color:white;}
+
+.advertise .title .camping-genrate{ color: #7C7C7C; padding-top: 1px;}
+.advertise  ::placeholder{ font-style: italic;}
+.ad .title{ padding-bottom: 15px;}
+.ad{ padding: 25px 30px 25px;}
+
+
+
+.campaing-next{     display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0 0 0;}
+
+.reverse-back-arrow{
+    margin-left: -11px;
+    margin-top: 15px;
+}

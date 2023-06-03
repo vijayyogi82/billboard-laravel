@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.integrate-search-location{
+    width: 314px;
+    height: 47px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    color: #6B6B6B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 33px;
+    border: none;
+    border-bottom: 2px solid #0A1E5C;
+    margin: 10%;
+}
+#integrate-search-modal .modal-body{
+    padding: 11px;
+}
+#integrate-search-modal .results{
+    font-size: 26px;
+    font-family: Poppins;
+    color: #6B6B6B;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 18px;
+}
+#integrate-search-modal .location-image{
+    width: 18px;
+    margin-right: 8px;
+}
+#integrate-search-modal .recent-searches{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+#integrate-search-modal .billboard-board{
+    margin-top: 45px;
+    width: 100%;
+    position: relative;
+}
+#integrate-search-modal .billboard-board img{
+    width: 100%;
+    height: auto;
+}
+#integrate-search-modal .billboard-content-column{
+    width: 100%;
+    height: 160px;
+    box-shadow: 0px 14px 70px -35px #00000061;
+}
+#integrate-search-modal .first-content-row{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#integrate-search-modal .id-image{
+    margin-left: 15px;
+}
+#integrate-search-modal .hashtag-code{
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 26px;
+    color: #0A1E5C;
+}
+#integrate-search-modal .second-content-row img{
+    width: 25px;
+    margin-left: 18px;
+}
+#integrate-search-modal .billboard-location{
+    font-family: Poppins;
+    font-weight: 400;
+    color: #6B6B6B;
+    font-size: 14px;
+}
+#integrate-search-modal .second-content-row{
+    margin-bottom: 15px;
+}
+#integrate-search-modal .decimal-rating{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    color: #6B6B6B;
+}
+#integrate-search-modal .center{
+    height: 29px;
+    width: 132px;
+    border-radius: 8px;
+    background-color: #0A1E5C;
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+/* .form-outline-control{
+    width: 710% !important;
+} */
+#integrate-search-modal .form-outline{
+    width: 41%;
+}
+#integrate-search-modal{
+    padding: 20px 0px 10px 20px !important;
+}
+#integrate-search-modal .billboard-dimensions{
+    width: 110px;
+    height: 30px;
+    font-size: 12px;
+    font-family: poppins;
+    color: white;
+    position: absolute;
+    background-color: #0A1E5C;
+    border: none;
+    border-radius: 17px 0px 0px 0px;
+}
+#integrate-search-modal .plus-minus{
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    background-color: #0A1E5C;
+    border: none;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 12px;
+    margin-top: 161px;
+    margin-left: -127px;
+    border-radius: 6px;
+}
+#integrate-search-modal .second-option{
+    margin-left: -64px;
+}
+
+
+
+
+/* SEARCH CSS CODE */
+#integrate-search-modal .modal-content{
+    border-radius: 25px !important;
+    padding: 20px 20px 10px 20px;
+}
+#integrate-search-modal .modal-header{
+    border-bottom: none !important;
+}
+#integrate-search-modal .modal-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #0A1E5C;
+}
+#integrate-search-modal .modal-header .btn-close{
+    margin: 0px;
+    border: 3px solid #0A1E5C !important;
+    border-radius: 50px !important;
+    opacity: 1;
+}
+#integrate-search-modal .btn-close{
+    color: #0A1E5C !important;
+    border: 3px solid #0A1E5C !important;
+}
+#integrate-search-modal .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-search-modal .fa-magnifying-glass{
+    margin-right: 15px;
+    font-size: 25px;
+    color: #0A1E5C;
+}
+#integrate-search-modal .search-btn{
+    padding: 0px;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #0A1E5C;
+    margin-top: -4px;
+}
+#integrate-search-modal #searches{
+    margin-bottom: 40px;
+}
+#integrate-search-modal .search-btn .fa-magnifying-glass{
+    font-size: 21px;
+}
+#integrate-search-modal .form-control{
+    border-radius: 0px;
+    width: 227%;
+    padding: 0px;
+    border: none;
+    border-bottom: 1px solid #0A1E5C;
+}
+#integrate-search-modal .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-bottom: 1px solid #0A1E5C;
+    box-shadow: none;
+}
+#integrate-search-modal ::placeholder{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33px;
+}
+#integrate-search-modal .map-img{
+    width: 108%;
+    margin: 7px 0 -23px -18px;
+}
+#integrate-search-modal .modal-footer{
+    border-top: none;
+    display: inline-block;
+}
+#integrate-search-modal .modal-footer .btn{
+    height: 53px;
+    width: 100%;
+    border-radius: 62px;
+    background-color: #0A1E5C;
+    border: 1px solid #0A1E5C;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 29px;
+    color: #ffffff;
+}
+#integrate-search-modal .back{
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 767px){
+    #integrate-search-modal .form-outline{
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #integrate-search-modal ::placeholder{
+        font-size: 12px;
+    }
+    #integrate-search-modal .map-img{
+        margin: 7px 0 -23px -10px
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    #integrate-search-modal .modal-footer #change-location-font-change{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    #integrate-search-modal #print-service-container ul li{margin-left: 0px;}
+}

@@ -1,0 +1,223 @@
+@import url(./common.css);
+
+header {background: var(--main-bg-color);}
+.header-wrap {display: var(--d-flex);}
+.header-wrap .header-cell {
+    flex: var(--flex);
+    align-items: right;
+}
+.bottom-fixed{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.header-cell:first-child {
+    flex: 0 0 30%;
+
+}
+
+.header-cell nav {
+    display: var(--d-flex);
+    align-items: center;
+    height: 98px;
+}
+
+.header-cell nav ul {
+    display: var(--d-flex);
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-cell nav ul li {
+    margin-left: 28px;
+}
+
+.header-cell nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-white)
+}
+
+.banner-wrap {
+    width: 100%;
+    background: var(--main-bg-color)
+}
+
+.banner-container {
+    display: var(--d-flex);
+}
+
+.banner-cell {
+    flex: var(--flex);
+
+    padding-left: 16px;
+
+}
+
+.banner-cell:last-child {
+mix-blend-mode: lighten;
+display: flex;
+justify-content: flex-end;
+padding-left: 0;
+}
+.banner-cell .banner-img{
+width: 100%;
+position: relative;
+width: 100%;
+height: 520px;
+}
+.banner-cell:first-child{flex: 0 0 35%;}
+.banner-cell .banner-img img{
+    position: absolute;
+    right: -10px;
+    top: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-text h1 {
+    font-size: 64px;
+    color: var(--color-white);
+    font-weight: 600;
+
+}
+
+.banner-text p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.banner-text .button img {
+    margin-right: 10px;
+
+}
+.our-services-wrap{
+    padding: 40px 0;
+    background: #EFEFEF;
+}
+.our-services-container h2{
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 50px;
+    color:#0A1E5C;
+}
+.our-services-container ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.our-services-container ul li{
+    flex:0 0 50%;
+    display: flex;
+    align-items: centerz;
+    justify-content: center;
+}
+.our-services-container ul li .content{padding: 30px 50px;}
+.content h3{
+    font-weight: 600;
+    font-size: 42px;
+    padding-bottom: 20px;
+    color:#616161;
+}
+.content p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+.content  button img{
+    margin-left: 10px;
+}
+
+/* .print-service-wrap{
+    padding: 40px 0;
+} */
+
+.print-service-container h2{
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    padding: 15px 0;
+    color:#0A1E5C;
+
+}
+
+.print-service-container ul{
+    display: var(--d-flex);
+}
+/* .print-service-container ul.margin-top{
+    margin-top: 40px; margin-bottom: 40px;
+} */
+
+.print-service-container ul li{
+    display: var(--flex); position: relative;
+
+}
+.print-box{
+  
+    border-radius: 20px;
+    
+background: #FFFFFF;
+box-shadow: 0px 14px 70px -35px rgba(0, 0, 0, 0.38);
+    
+}
+
+.print-box ul{
+    flex-direction: column;
+    padding: 25px 15px;
+}
+
+
+.print-box ul li{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.print-service-container ul li{margin-left: 23px; flex: 1;}
+.print-service-container ul li:first-child{
+    margin-left: 0;
+}
+.print-info ul li:last-child{
+    margin-bottom: 0;
+}
+.print-box ul li span{
+    padding-left: 19px;
+    color: rgba(107, 107, 107, 1);
+}
+.print-box ul li{margin-left: 0;}
+.print-box ul li:nth-child(1) span{font-size: 18px;
+    font-weight: 500;
+}
+.print-box ul li:nth-child(2) span{font-size: 15px;}
+.print-box ul li:nth-child(3) span{font-size: 20px;
+    font-weight:700;
+    
+}
+
+.footer{
+    background: var(--main-bg-color);
+    text-align: center;
+    color: var(--color-white);
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.landing .margin-top{ padding-top: 22px;}
+.landing .print-box ul{ padding: 25px 15px; padding-bottom: 10px;}
+.landing .print-box ul li { margin: 0; padding: 10px 0; border-bottom: 1px solid #efebeb;}
+.landing .print-box ul li:last-child{border-bottom: 0;}
+
+
+    .icon{ margin-left: 34px !important;
+        margin-top: -40px; font-size: 9px !important;}
+
+
+
+    

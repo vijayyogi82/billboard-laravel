@@ -1,0 +1,263 @@
+#header-right-side-first{
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+  #header-right-side-second{
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  .modal-reverse-heading{
+    cursor: pointer;
+    margin-left: 12px;
+}
+.modal-reverse-heading img{
+    height: 10px;
+    margin-right: 4px;
+}
+.modal-reverse-heading h6{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #9B9B9B;
+    margin-left: 10px;
+}
+.btn-sign-wrap a{
+    color: #0A1E5C;
+}
+.btn-sign-wrap .modal-reverse-heading {
+    margin-left: 0px;
+}
+.form-font-wrap{
+    font-size: 25px;
+}
+.media-owner-types ul .types{
+    list-style-type: disc;
+}
+.media-owner-types ul .types:first-child{
+    margin-left: 20px;
+}
+.media-owner-types ul .types:last-child{
+    margin-left: 30px;
+}
+.btn-sign-wrap p{
+    margin-right: 10px;
+}
+#owner-selection{
+    border: none;
+    border-bottom: 1px solid #0A1E5C;
+    border-radius: 0px;
+    color: #e4e4e4;
+    padding-left: 0px;
+}
+.otp-send .modal-reverse-heading{
+    margin-left: 0px;
+}
+.otp-send .modal-reverse-heading h6{
+    margin-left: 0px;
+}
+#accordion{
+    padding-right: 65px;
+}
+#location-select{
+    padding-right: 30px;
+}
+#integrate-enter-login-modal-content .modal-body .differentiate-label img{
+    width: 65px;height: auto;margin-bottom: 25px;
+}
+#accordion .form-select{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #0A1E5C;
+    border: none;
+    border-bottom: 1px solid #0A1E5C;
+    border-radius: 0px;
+}
+#accordion .form-select:focus {
+    border-bottom: 1px solid #0A1E5C;
+    outline: 0;
+    box-shadow: none;
+}
+#accordion .form-select option{
+    color: #0A1E5C;
+    font-size: 12px;
+    border: none;
+    box-shadow: 0px -2px 8px 0px #3C4F7617 inset;
+}
+/* Tanisha side landing-header style */
+
+.landing-header-log-btn{
+    background: #0A1E5C;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 9px;
+    padding: 8px 20px;
+    font-family: "Poppins";
+}
+
+/* Tanisha side landing-page style */
+
+.container-banner{
+    position: relative;
+}
+.text-block{
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    color: #2B3F43;
+}
+.landing-banner-wrap .text-block h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+.landing-banner-wrap .container-banner img{
+    height: 498px;
+}
+.landing-banner-wrap .text-block h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: -44px;
+}
+.landing-join-btn{
+    background: #0A1E5C;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 30px;
+}
+.ms-5{
+    margin-left: 5rem !important;
+}
+.services-container h2{
+    color: #2A2B33;
+    font-size: 40px;
+    font-weight: 400;
+}
+.services-container p{
+    color: #3D5469;
+    font-size: 16px;
+    font-weight: 400;
+}
+.services-container h4{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+}
+.services-container .services-circles-btn{
+    width: 77%;
+    height: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #C5C5C5;
+}
+.services-container .card{
+    box-shadow: 0px 2px 8px 0px #00000026;
+    border-radius: 0px;
+    border: none;
+}
+.card-body h6{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    color: #273440;
+}
+.card-body span{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7A7A7A;
+}
+.services-container .provider-details p{
+    color: #8A8A8A;
+}
+.services-container .provider-details span{
+    color: #f56660;
+    font-size: 12px;
+}
+.services-container .green-circle-btn{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: #AAFF9C;
+    transform: translate(-55%, -17%);
+    border: none;
+}
+.services-container .red-circle-btn{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: #FF7E7E;
+    border: none;
+    left: 32.5%;
+    top: -40%;
+}
+.services-container .blue-circle-btn{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: #97AEFF;
+    border: none;
+    left: 64.5%;
+    top: -40%;
+}
+.services-container .yellow-circle-btn{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    background-color: #FFC978;
+    border: none;
+    left: 98.5%;
+    top: -40%;
+}
+
+/* JOIN US POPUP */
+
+.login-identity-container h5{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+.login-identity-container p{
+    color: #8A8A8A !important;
+}
+.join-modal-footer h6{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.join-modal-footer span{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #0A1E5C;
+}
+.join-modal-footer .modal-reverse-heading{
+    margin-left: 18px;
+}
+.login-identity-container .form-check .form-check-input{
+    width: 27px !important;
+    height: 25px;
+    border-radius: 7px;
+    border: 0.650794px solid #000000;
+}
+.login-identity-container .form-check{
+    display: flex;
+    padding-left: 5rem;
+}
+.login-identity-container .form-check .form-check-label{
+    margin-left: 15px;
+    align-items: end;
+    font-size: 16px;
+    color: #000000;
+}
+#upload-modal p{
+    line-height: 16px;
+}

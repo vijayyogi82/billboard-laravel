@@ -1,0 +1,190 @@
+/* CSS CODE BY TANISHA */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#integrate-billboard-details{
+    border-radius: 21px !important;
+    padding: 0px 20px 10px 20px;
+}
+#integrate-billboard-details .modal-header{
+    border-bottom: none !important;
+}
+#integrate-billboard-details .list{
+    margin-right: 16px;
+}
+#integrate-billboard-details .modal-header .btn-close{
+    margin: 0px;
+    border: 3px solid #0A1E5C !important;
+    border-radius: 50px !important;
+    margin-top: 6px;
+    opacity: 1;
+}
+#integrate-billboard-details .btn-close{
+    color: #0A1E5C !important;
+    border: 3px solid #0A1E5C !important;
+}
+#integrate-billboard-details .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-billboard-details .modal-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #0A1E5C;
+}
+#integrate-billboard-details .single-row{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #0A1E5C;
+    border-radius: 5px;
+}
+#integrate-billboard-details .avail{
+    width: 138px;
+    height: 30px;
+    background-color: #0A1E5C;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 29px;
+    padding: 2px 20px 6px 6px;
+}
+#integrate-billboard-details .fa-calendar-days{
+    font-size: 17px;
+    color: #ffffff;
+    margin-right: 20px;
+}
+#integrate-billboard-details h4{
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #646464;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+#integrate-billboard-details .font{
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    font-family: Poppins;
+    font-weight: 600;
+}
+#integrate-billboard-details .contact-owner{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #575757;
+}
+#integrate-billboard-details .exclamation{
+    margin-right: 10px;
+}
+#integrate-billboard-details .box{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #0A1E5C;
+    margin-top: 15px;
+    padding-top: 1px
+}
+#integrate-billboard-details h6{
+    margin-top: 19px;
+    color: #575757;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+#integrate-billboard-details span{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 8px;
+    color: #020202;
+}
+#integrate-billboard-details .color-change{
+    color: #0A1E5C;
+}
+#integrate-billboard-details .box .fa-calendar-days{
+    color: #0A1E5C;
+    font-size: 20px;
+    margin-right: 11px;
+}
+#integrate-billboard-details .date-change{
+    width: 78px;
+    height: 25px;
+    border-radius: 12px;
+    background-color: #0A1E5C;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-size: 11px;
+    margin-top: 12px;
+}
+#integrate-billboard-details .available{
+    background-color: rgba(54, 170, 0, 0.2);
+    color: #36AA00;
+    border: 1px solid #36AA00;
+    margin-top: 12px;
+}
+#integrate-billboard-details .unavailable{
+    margin-top: 12px;
+    width: 101px;
+    background: rgba(170, 0, 0, 0.2);
+    border: 1px solid #AA0000;
+    color: #AA0000;
+}
+#integrate-billboard-details .modal-footer{
+    border-top: none;
+    display: inline-block;
+}
+#integrate-billboard-details .modal-footer .btn{
+    height: 53px;
+    width: 100%;
+    border-radius: 62px;
+    background-color: #0A1E5C;
+    border: 1px solid #0A1E5C;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    line-height: 29px;
+    color: #ffffff;
+}
+#integrate-billboard-details .drop-down ul { position: absolute; border: 1px #EDEDED; background-color: #FFFFFF;
+    right: 0;
+    border-radius: 20px;
+    margin-top: -13px;
+    padding-left: 20px;
+    padding-right: 20px; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);}
+
+    #integrate-billboard-details .drop-down ul li{ border-bottom: 1px solid #D9D9D9; width: 100%; list-style: none;}
+
+@media screen and (max-width: 487px){
+    #integrate-billboard-details .fa-calendar-days{
+        margin-right: 4px;
+    }
+    #integrate-billboard-details .avail{
+        font-size: 12px;
+        width: 100px;
+        padding: 2px 1px 6px 6px;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    #integrate-billboard-details .fa-calendar-days{
+        font-size: 13px;
+        margin-right: 2px;
+    }
+    #integrate-billboard-details .avail{
+        padding: 2px 1px 6px 3px;
+        width: 82px;
+    }
+    #integrate-billboard-details .font{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width: 370px){
+    #integrate-billboard-details .avail{
+        font-size: 10px;
+        width: 71px;
+    }
+}

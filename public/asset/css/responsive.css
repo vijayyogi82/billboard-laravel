@@ -1,0 +1,238 @@
+@media only screen and (max-width: 991px) {
+.container{max-width: 100% !important;}
+.banner-container{flex-direction: column !important; padding: 40px 0 !important;}
+.banner-container .banner-text h1{font-size: 40px !important; padding-bottom: 10px !important;}
+.banner-container .banner-text p{font-size: 14px !important;}
+.banner-container .banner-cell:last-child{display: none !important;}
+.our-services-wrap .our-services-container ul{ flex-direction: column !important;}
+.print-service-wrap .print-service-container ul{flex-direction: column !important;padding: 0px 15px !important;}
+.print-service-wrap .print-service-container ul li{margin-bottom: 20px !important;display: block !important;}
+.our-services-container h2{font-size: 40px !important;padding-bottom: 30px !important;}
+.our-services-container ul li .content{padding: 20px !important;}
+.our-services-container ul li .content h3{font-size: 24px !important;}
+.our-services-container ul li .content p{font-size: 20px !important;line-height: 30px !important;padding-bottom: 20px !important;}
+.print-service-container h2{font-size: 40px !important;}
+.print-box ul li span{font-size: 18px !important;padding-left: 14px !important;}
+.print-box ul li #waiting{font-size: 12px !important;}
+.print-service-container ul li{margin-left: 0 !important;}
+.print-info ul li{margin-bottom: 0 !important; }
+.userAccountWrap header{display: none !important;}
+.userAccountWrap .user-account{position: fixed !important; z-index: 99 !important; bottom: 0 !important; left: 0 !important; overflow: hidden !important;} 
+.user-account-mobile-header{display: block !important;margin-top: 15px !important;margin-bottom: 15px !important;}
+.billboard-details-container{padding: 0 16px !important;}
+.billboard-details-container .billboard-cell-left{display: none !important;}
+.billboard-cell-center {display: none !important;}
+.billboard-box{flex-direction: column !important;}
+.inventory{width: 100% !important;}
+.billboard-cell-right{padding: 0 !important; margin: 0 !important; border: 0 !important; width: auto !important;}
+/* .print-service-wrap, .recent-vi{display: none !important;} */
+.top-content-2{display: none !important;}
+.billboard-cell-right ul li:nth-child(1){display: none !important;}
+.billboard-cell-right ul li:nth-child(2){display: none !important;}
+.spacing-for-mobile{padding: 0px !important;}
+.user-account-horizontal-line{padding: 0px !important;}
+.hidden-line{display: block !important;}
+/* hr{display: none;} */
+.user-account .user-cell:first-child{display: none !important;}
+.userAccountWrap .footer{display: none !important;}
+.user-cell1{padding: 0 !important; justify-content: flex-start !important;}
+.menu-box{overflow: hidden !important;}
+.menu-box ul{overflow-x: auto !important; padding: 0 10px !important;}
+.add-inven{flex-direction: column !important; width: 100% !important;}
+.accordion-body .container-box{flex-direction: column !important;}
+.container-box em input{width: 100% !important;}
+.two-btn{margin-top: 10px !important;}
+.two-btn button{width:50% !important; justify-content: center !important;}
+.add-inven button{width: 100% !important;}
+.app-container{display: flex !important;}
+/* TANISHA */
+.left-marg{right: 25px !important;}
+#yellow-star{width: 4% !important;}
+.campagin-box .new-img img{width: 100% !important;}
+.search-box .inside-text{font-size: 14px !important;}
+.menu-box ul li{margin-left: 52px !important;}
+#print-box{width: 100% !important;}
+.chat-box{margin-top: 15px !important;margin-left: 4px!important;}
+#common-button{padding: 4px !important;}
+.s-price h1{margin-top: 40px !important;}
+#listing-loc-input-checkbox{width: 13px !important;}
+#search-icon{margin-left: 214px !important;}
+#top-content-2{display: block !important;}
+#list-first-image{width: 37%!important;}
+.dropdown-cell ul{flex-direction: column !important;}
+.dropdown-cell ul li:last-child{margin-left: 0px !important;}
+#select-products{margin-top: 40px !important;}
+#integrate-view-on-maps .print-service-wrap .print-service-container ul li {margin-bottom: 10px !important;}
+#integrate-view-on-maps .print-box ul li span{padding-left: 0px !important;}
+}
+/* css code by tanisha */
+.navbar-collapse{flex-grow: 0 !important;}
+.navbar-nav{--bs-nav-link-color: #ffffff !important;font-size: 16px !important;font-weight: 500 !important;margin-right: 28px !important;}
+.navbar-expand-lg .navbar-nav .nav-link{padding-left: 1.5rem !important;}
+.navbar-collapse{text-align: center !important;z-index: 1 !important;}
+.fa-bars{color: #ffffff !important;font-size: 42px !important;margin-top: -4px !important;}
+.navbar-toggler:focus{box-shadow: none !important;}
+.nav-link:hover, .nav-link:focus{color: #ffffff !important;}
+.header-right-side-first{margin-left: 10px !important;margin-right: 25px !important;}
+.header-right-side-second{margin-left: 10px !important;margin-right: 15px !important;}
+#navbar{display: none !important;}
+#media-query{display: none !important;}
+#after-min-width{display: none !important;}
+#after-min-width2{display: none !important;}
+#after-min-width3{display: none !important;}
+#after-min-width4{display: none !important;}
+  
+@media only screen and (min-width: 200px) and (max-width: 1250px) {
+  .navbar-brand{padding-left: 0px!important;}
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+  .navbar-expand-lg #navbar {display:block !important;margin-right: 0px !important;margin-left: 18px !important;}
+  .header-right-side-first{display: none !important;}.header-right-side-second{display: none !important;}
+  .navbar-collapse{height: 272px !important;}
+  .navbar-nav{font-size: 22px !important;margin-right: 0px !important;}
+  .navbar-expand-lg .navbar-nav .nav-link{padding: 15px !important;border-bottom: 1px solid #ffffff2e !important;}
+  .navbar-expand-lg #media-query{display:block !important;margin-right: 0px !important;margin-left: 18px !important;}
+  .navbar-expand-lg .auto{margin-top: 6px !important;display:block !important;margin-right: 0px !important;margin-left: 18px !important;}
+  .steper-wrap ul li .hello{width: 156px !important;}
+  .modal-log{--bs-modal-width: 670px !important;}
+  .brows-cell{display: none !important;}
+  .brows-location ul{display: contents !important;}
+  .comprative-ce strong img{position: relative !important;}
+} 
+
+@media only screen and (max-width: 576px){
+  .select-product ul li{padding: 0px 14px !important;font-size: 15px !important;}
+  .select-product ul li.active::after {position: absolute !important;width: 0 !important;content: '' !important;bottom: -8px !important;left: 47px!important;height: 0 !important;border-left: 6px solid transparent !important;border-right: 6px solid transparent !important;border-top: 8px solid #0A1E5C !important;font-size: 0 !important;line-height: 0 !important;float: left !important;}
+  .billboard-tex{flex-direction: column !important;}
+  .billboard-tex h3{padding: 0px !important;font-size: 15px !important;}
+  .billboard-tex .side-filter{padding: 0px 9px!important;font-size: 13px !important;}
+  .browse-billboards{padding: 30px 15px !important;}
+  .brows-text{padding: 0px 50px 119px 48px !important;}
+  #brows-text{padding: 0px 50px 119px 0px !important;}
+  .brows-cell1{display: block;width: 300px !important;}
+  .search-box{width: 300px !important;}
+  .search-box .inside-text{font-size: 14px !important;}
+  .menu-box ul li{margin-left: 20px !important;}
+  .owner-button{display: none !important;}
+  .add-button button{font-size: 18px !important;}
+  .user-online .top-result .top-filter{padding: 0px 10px !important;}
+  .comprative-r .existing-bill .select-desired{font-size: 22px !important;}
+  .recent-vi h1{font-size: 30px !important;}
+  .campaign-coca-1 .print-box .text-cc img{margin-top: -17px !important;}
+  #yellow-star{width: 9% !important;}
+  .change-loc span{font-size: 13px !important;}
+  .brows-location .change-loc button{padding: 5px 2px 5px 2px !important;}
+  .brows-location ul{display: contents !important;}
+  .brows-location .listing-loc li{padding: 0px 20px 20px 0px !important;}
+  #top-content-2{display: block !important;}
+  .top-content-2 ul li button{margin-top: -8px !important;}
+  #recent-vi h1{margin-top: 70px !important;}
+  #print-user-dot{width: 100% !important;}
+  #flig-user-dot-second{width: 100% !important;}
+  .user-online ul li .user-p-f{display: flex !important;}
+  .click-button ul li a{font-size: 15px !important;}
+  .click-button ul li {min-width: 50px !important;}
+  #tex .side-filter{padding: 0px 30px !important;font-size: 20px !important;}
+  #tex .side-filter{margin-top: 33px !important;}
+  #select-product ul li.active::after{left: auto !important;}
+  #select-products{margin-top: 40px !important;}
+  #sl-p-n{margin-top: 70px !important;}
+  .dropdown-wrap{padding: 0 0 20px 20px !important;}
+  .cocacola{flex: 0 !important;}
+}
+@media only screen and (min-width: 992px) and (max-width: 1209px) {
+  .user-cell{padding: 0px 12px !important;}
+  .user-cell1{overflow: hidden !important;}
+  .two-btn .common-form-btn{padding: 10px 11px !important;}
+  .menu-box ul li {margin-left: 7px !important;}
+  .billboard-cell-center .btn img{left: 0px !important;position: relative !important;}
+  .billboard-cell-center .btn{padding-right: 0px !important;}
+  .user-cell1 .menu-box ul{padding-right:5px !important;}
+  .brows-cell{display: none !important;}
+  .search-box .inside-text{font-size: 14px !important;}
+  .owner-button button{width: 110px !important;}
+  .owner-button{right: 13px !important;}
+  .chat-box .notifiction-icon img{display: none !important;}
+  .schedules-2 .top-bt{top: 391px !important;}
+  .inventory ul li .export-email{top: -21px !important;}
+  .brows-location ul{display: contents !important;}
+  #listing-loc-input-checkbox{width: 13px !important;}
+  #search-icon{margin-left: 214px !important;}
+  .undisplaying-content{display: block !important;}
+  .top-content-2 li #select-du{display: none !important;}
+  .top-content-2 ul li button{padding: 0px 8px !important;right: -19px !important;}
+  .top-content-2 .question-icon{margin-left: 0px !important;font-size: 17px !important;}
+  #green-owner-btn{margin-top: -7px !important;}
+  .print-box .print-info ul li .validity{padding: 0 0px !important;}
+  #print-box{width: 100% !important;}
+  .campaign-coca-1 .print-box ul li .select-print{padding: 0 6px !important;}
+}
+@media only screen and (min-width: 1209px) and (max-width: 1317px){
+  .brows-cell{display: none !important;}
+  .brows-cell1{display: block !important;}
+  .search-box .inside-text{font-size: 14px !important;}
+  .chat-box .notifiction-icon img{display: none !important;}
+  .brows-location ul{display: contents !important;}
+  #listing-loc-input-checkbox{width: 13px !important;}
+  #search-icon{margin-left: 214px !important;}
+  .top-content-2 ul li input {padding: 0px !important;width: 284px !important;height: 40px !important;}
+  .top-content-2 li em{font-size: 16px !important;}
+  .top-content-2 ul li button {right: -20px !important;}
+  #print-box{width: 100% !important;}
+  .campaign-coca-1 .print-box ul li .select-print{padding: 2px !important;}
+}
+
+
+@media only screen and (min-width: 1317px){
+  .brows-cell{display: block !important;}
+  .brows-cell1{display: none !important;}
+  .brows-location{display: block !important;}
+  #brows-location1{display: none !important;}
+  #listing-loc-input-checkbox{width: 13px !important;}
+  .top-content-2 ul li input {padding: 10px !important;width: 314px !important;height: 40px !important;}
+  #print-box{width: 100% !important;}
+  .campaign-coca-1 .print-box ul li .select-print{padding: 0 6px !important;}
+}
+
+@media only screen and (max-width: 1120px){
+  #dropdown-list{display: none !important;}
+  #dropdown-list-cocacola{display: none !important;}
+  .dropdown-cell img{margin: 0 107% !important;margin-top: 7px !important;}
+}
+
+@media only screen and (min-width: 1700px){
+  #after-min-width{display: block !important;}
+  #container-row-after{max-width: 100% !important;padding: 0 50px !important;margin: 0px !important;}
+  .flighting-box{display: none !important;}
+  #after-min-width-image{width: 200px !important;}
+  .after-min-width-image{width: 600px !important;}
+  .schedules-2 .top-bt{top: 564px !important;}
+  .billboard-cell-center .btn img{position: inherit !important;}
+  .owner-button {position: inherit !important;margin-left: 60px !important;}
+  .campaign-coca-1 .print-box ul li .select-print{padding: 0 6px !important;}
+}
+@media only screen and (min-width: 2561px){
+  #after-min-width2{display: block !important;}
+  #container-row-after{max-width: 100% !important;padding: 0 50px !important;margin: 0px !important;}
+  .inventory{width: 65% !important;}
+  .inventory-width{width: 65% !important;}
+  .billboard-cell-right{padding-left: 50px !important;}
+}
+
+@media only screen and (min-width:3300px){
+  #billboard-cell-center-part img{width: 100% !important;}
+  #after-min-width4{display: block !important;}
+  #after-min-width-image{width: 300px !important;}
+  .after-min-width-image{width: 800px !important;}
+  .schedules-2 .top-bt{top: 777px !important;}
+  #billboard-cell-center-part .min-width-edit{width: 9% !important;}
+  #footer{margin-top: 85px !important;}
+}
+
+@media only screen and (min-width: 2900px){
+  #after-min-width3{display: block !important;}
+  .comprative-ce .view-all-bt button{display: none !important;}
+  .comprative-bt button{display: none !important;}
+}
+

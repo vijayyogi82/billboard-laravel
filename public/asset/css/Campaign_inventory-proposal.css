@@ -1,0 +1,230 @@
+/* CSS CODE BY TANISHA */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    box-sizing: border-box;
+}
+.modal{
+    --bs-modal-padding: 0px 31px 0px 33px !important;
+}
+.modal-body{
+    padding-bottom: 0px;
+}
+.modal-content{
+    border-radius: 21px !important;
+    height: 675px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 8px 0px #315576 inset;
+}
+.modal-header{
+    border-bottom: none !important;
+    padding: 16px 40px 20px 40px!important;
+}
+.modal-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #3C4F76;
+    font-family: Poppins;
+}
+.modal-header .btn-circle-xmark{
+    font-size: 19px;
+    margin-left: auto;
+    margin-top: 0px;
+}
+.btn-circle-xmark{
+    color: #3C4F76 !important;
+    border: none;
+    background: none;
+    margin: -18px;
+}
+.btn-circle-xmark:focus{
+    box-shadow: none !important;
+}
+.sub-title-button{
+    width: 100%;
+    height: 100px;
+}
+.campaign-inventory{
+    width: 50%;
+    height: 37px;
+    margin-top: 22px;
+    float: left;
+}
+.proposal{
+    float: left;
+    width: 50%;
+    height: 37px;
+    margin-top: 22px;
+}
+.btn-outline-primary{
+    width: 100%;
+    height: 37px;
+    border-radius: 0px;
+    border: 1px solid #3C4F76;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #3C4F76;
+}
+.btn:hover{
+    color: #3C4F76;
+    background-color: #fff;
+    border: 1px solid #3C4F76;
+}
+.btn-check:focus+.btn, .btn:focus{
+    color: #3C4F76;
+    background-color: #fff;
+    border: 1px solid #3C4F76;
+    box-shadow: none;
+}
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active{
+    color: #3C4F76;
+    background-color: #fff;
+    border: 1px solid #3C4F76;
+}
+.btn-check:active+.btn:focus, .btn-check:checked+.btn:focus, .btn.active:focus, .btn.show:focus, .btn:active:focus {
+    box-shadow: none;
+    color: #3C4F76;
+    background-color: #fff;
+    border: 1px solid #3C4F76;
+}
+.proposals-profile{
+    height: 87px;
+    border-radius: 7px;
+    background: #ffffff;
+    border: 1.5px solid #F4ECEC;
+    margin-top: 6px;
+}
+.image{
+    width: 24%;
+    float: left;
+}
+.img-fluid{
+    width: 70px;
+    height: 70px;
+    margin: 8px 9px 9px 8px;
+}
+.proposals-details{
+    width: 75.5%;
+    height: 87px;
+    float: left;
+    padding: 11.37px 0 12px 0;
+}
+.profile-details-first-row{
+    width: 100%;
+    height: 14.53px;
+}
+h6{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    color: #313131;
+}
+.id{
+    width: 45%;
+    float: left;
+}
+.dim{
+    width: 49%;
+    float: left;
+}
+.icon-heart{
+    float: left;
+    margin-top: -4px;
+}
+.fa-heart{
+    color: #F02E2E;
+}
+.profile-details-second-row{
+    width: 100%;
+    height: 14.53px;
+    margin-top: 8px;
+}
+p{
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    color: #313131;
+}
+.profile-details-third-row{
+    width: 100%;
+    height: 18px;
+    margin-top: 9px;
+}
+.first-column{
+    float: left;
+    width: 31%;
+    margin-top: -5px;
+}
+.profile-details-third-row .first-column button{
+    width: 24px;
+    height: 18px;
+    background-color: #3C4F76;
+    border: none;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 12px;
+}
+.left{
+    border-radius: 5px 0px 0px 5px;
+}
+.right{
+    border-radius: 0px 5px 5px 0px;
+}
+.second-column{
+    float: left;
+    width: 51%;
+    margin-top: -6px;
+}
+.center{
+    height: 18px;
+    width: 95px;
+    border-radius: 7px;
+    background-color: #3C4F76;
+    border: none;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.third-column{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3C4F76;
+}
+.fa-star{
+    color: #FFE600;
+}
+.modal-footer{
+    width: 459px;
+    height: 46px;
+    border-top: none !important;
+}
+
+
+@media screen and (max-width: 445px){
+    .third-column{font-size: 11px;}
+    .dim{width: 42%;}
+}
+
+@media screen and (max-width: 405px){
+    .img-fluid{margin: 8px 9px 9px 0px;}
+}
+
+@media screen and (max-width: 355px){
+    .first-column{width: 23%;}
+    .second-column{width: 54%;}
+    .profile-details-third-row .first-column button{width: 18px;}
+}
+
+			

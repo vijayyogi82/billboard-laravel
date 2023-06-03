@@ -1,0 +1,151 @@
+/* CSS CODE BY TANISHA */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+} */
+#integrate-comparative-price-popup{
+    border-radius: 27px !important;
+    padding: 0 20px 10px 20px;
+}
+#integrate-comparative-price-popup .modal-body{
+    padding: 1rem;
+}
+#integrate-comparative-price-popup .modal-header{
+    border-bottom: none !important;
+    padding-top: 30px;
+}
+#integrate-comparative-price-popup .modal-title{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    color: #0A1E5C;
+    font-family: Poppins;
+    margin: auto;
+}
+#integrate-comparative-price-popup .head-title{
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+}
+#integrate-comparative-price-popup .modal-header .btn-circle-xmark{
+    font-size: 22px;
+}
+#integrate-comparative-price-popup .btn-circle-xmark{
+    color: #0A1E5C !important;
+    border: none;
+    background: none;
+    margin: -18px;
+}
+#integrate-comparative-price-popup .btn-circle-xmark:focus{
+    box-shadow: none !important;
+}
+#integrate-comparative-price-popup .banner img{
+    margin: 18px 0 16px 14px;
+}
+#integrate-comparative-price-popup .fa-circle-chevron-left{
+    font-size: 24px;
+    color: #0A1E5C;
+    cursor: pointer;
+}
+#integrate-comparative-price-popup .fa-circle-chevron-right{
+    font-size: 24px;
+    color: #0A1E5C;
+    margin-left: 13px;
+    cursor: pointer;
+}
+#integrate-comparative-price-popup .modal-sub-title{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    color: #6B6B6B;
+    line-height: 17px;
+    margin-top: 20px;
+}
+#integrate-comparative-price-popup .sub-title{
+    font-weight: 400;
+}
+#integrate-comparative-price-popup .rating-view{
+    height: 16px;
+    margin-top: 9px;
+    text-align: center;
+    font-family: Poppins;
+    color: #0A1E5C;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 12px;
+}
+#integrate-comparative-price-popup .fa-star{
+    color: #FFE600;
+    font-size: 16px;
+}
+#integrate-comparative-price-popup .fa-star::before{
+    margin-right: 6px;
+}
+#integrate-comparative-price-popup p{
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #6B6B6B;
+}
+#integrate-comparative-price-popup h4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #6B6B6B;
+    margin-top: 15px;
+}
+#integrate-comparative-price-popup .text-right{
+    text-align: right;
+}
+#integrate-comparative-price-popup h3{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #6B6B6B;
+    margin-top: 10px;
+}
+#integrate-comparative-price-popup .modal-footer{
+    border-top: none;
+    display: inline-block;
+}
+#integrate-comparative-price-popup .modal-footer .btn-primary{
+    border-radius: 5px;
+    background: #0A1E5C;
+    border: 1px solid #0A1E5C;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 6px 12px;
+}
+#integrate-comparative-price-popup .btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+    color: #F2F2F2;
+}
+#integrate-comparative-price-popup .btn-check:active+.btn:focus, .btn-check:checked+.btn:focus, .btn.active:focus, .btn.show:focus, .btn:active:focus {
+    box-shadow: none;
+    color: #F2F2F2;
+}
+@media screen and (max-width: 513px){
+    .banner{padding-left: 40px;padding-right: 0px}
+    .banner img{width: 65%;}
+}
+
+@media screen and (max-width: 430px){
+    .banner{padding-left: 18px;padding-right: 0px}
+}

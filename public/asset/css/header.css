@@ -1,0 +1,26 @@
+
+.logo img{width: 50px; }
+.navbar-brand {padding-left: 0px !important;}
+.collapse .navbar-nav .nav-item .nav-link{color:#0A1E5C !important}
+.navbar{ height: 75px; background-color: white; box-shadow: 5px 7px 14px #f1f1f1; }
+.navbar-nav{padding-left: 31px !important;}
+.navbar-nav-list{display: flex; align-items: center;}
+.navbar-nav-list li{padding-left: 20px;}
+.navbar {padding: 0 30px !important; }
+ .nav-link .profile img{height: 30px !important;}
+ .notification-circle{ width: 17px; position: absolute;     margin-left: 12px;
+    margin-top: -29px;
+    height: 17px;
+    background-color: red; border: 1px solid; display: flex !important; align-items: center; justify-content: center;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;}
+
+    .nav-bar-menu{display: flex; width: 100%; padding: 10px 0; align-items: center; justify-content: center;  position: relative; z-index: 999; background-color:white; border-top: 1px solid #f1f1f1;}
+    .nav-bar-menu .list-nav ul {display: flex;}
+    .nav-bar-menu .list-nav ul li a em img{height: 22px;} 
+    .nav-bar-menu .list-nav ul li{text-align: center; padding-left: 52px;}
+    .nav-bar-menu .list-nav ul li:nth-child(1){padding-left: 0;;}
+    .nav-bar-menu .list-nav span{margin-left: 10px; align-items: center; color: #0A1E5C; font-weight: 400; color:#0A1E5C;}

@@ -1,0 +1,58 @@
+/* CODE BY Tanisha */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#integrate-enter-login-modal-content{
+    border-radius: 25px !important;
+    padding: 20px 20px 10px 20px !important;
+}
+#integrate-enter-login-modal-content .modal-header{
+    border-bottom: none !important;
+}
+/* .integrate-form-label-modal{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #0A1E5C;
+    margin-right: 10px;
+}  */
+#integrate-enter-login-modal-content .modal-title{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33px;
+    color: #0A1E5C;
+    margin-left: 28%;
+}
+#integrate-enter-login-modal-content .modal-header .btn-close{
+    margin: 0px;
+    /* border: 3px solid #0A1E5C !important;
+    border-radius: 50px !important;
+    opacity: 1; */
+}
+/* #integrate-enter-login-modal-content .btn-close{
+    color: #0A1E5C !important;
+    border: 3px solid #0A1E5C !important;
+} */
+#integrate-enter-login-modal-content .btn-close:focus{
+    box-shadow: none !important;
+}
+#integrate-enter-login-modal-content .modal-body{
+    padding: 16px;
+}
+#integrate-enter-login-modal-content .modal-footer{
+    border-top: none;
+    display: inline-block;
+}
+/* .login1{
+    border-bottom: none !important;
+}
+.login{
+    border-radius: 25px !important;
+    padding: 20px 20px 10px 20px !important;
+}
+.login2{
+    padding: 1rem;
+} */
+

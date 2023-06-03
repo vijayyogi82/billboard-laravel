@@ -1,0 +1,58 @@
+#upload-modal .modal-header{
+    border-bottom: none !important;
+    margin-top: 20px !important;
+}
+#upload-modal .modal-content{
+    border-radius: 25px !important;
+    padding: 0 20px 30px 20px;
+    top: 100px;
+}
+#upload-modal .modal-header .modal-title{
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #0A1E5C;
+    margin: auto;
+}
+.modal-header .btn-close{
+    margin: 0px;
+    opacity: 1;
+}
+.btn-close:focus{
+    box-shadow: none !important;
+}
+#upload-modal .modal-body{
+    padding: 1rem;
+}
+#upload-modal .yes-no-button{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#upload-modal .yes-no-button button{ 
+    padding: 3px 40px;
+    background-color: #0A1E5C;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+
+#upload-modal p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+#upload-modal .owner-condition{
+    padding: 2rem 3rem;
+}
+#upload-modal .modal-footer{
+    border-top: none;
+    margin-bottom: 20px;
+}
+
+
+
